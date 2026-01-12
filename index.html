@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Zahlfix – Structure for your numbers. Clarity for your business. Legally secure. Digital. Professional accounting and business solutions.">
+    <meta name="keywords" content="Zahlfix, Accounting, Business, Numbers, Digital, Legally Secure, Finance">
+    <meta name="author" content="Zahlfix">
+    <meta name="theme-color" content="#FFD700">
+
+    <title>Zahlfix – Structure for your numbers.</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cursor.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/media/favicon.png" type="image/png">
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Zahlfix",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c",
+      "telephone": "+49 123 456 789",
+      "email": "info@zahlfix.de",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Musterstraße 1",
+        "addressLocality": "Berlin",
+        "postalCode": "10115",
+        "addressCountry": "DE"
+      },
+      "url": "http://127.0.0.1:8080",
+      "priceRange": "$$",
+      "description": "Zahlfix – Struktur für Ihre Zahlen. Digitale und rechtssichere Finanzlösungen für Ihr Unternehmen."
+    }
+    </script>
+</head>
+
+<body>
+    <div class="grain-overlay"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Zahl<span class="highlight">fix</span>.</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#services">Leistungen</a></li>
+                <li><a href="#about">Über uns</a></li>
+                <li><a href="#digital">Digital</a></li>
+                <li><a href="#contact" class="btn-nav">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section parallax-container">
+        <video id="hero-bg" class="parallax-video" autoplay muted loop playsinline poster="">
+            <source src="assets/media/handshake.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle fade-in-up">Rechtssicher & Digital</span>
+            <h1 class="hero-title fade-in-up delay-1">ZahlFix – Struktur für Ihre <span class="highlight">Zahlen</span>.
+            </h1>
+            <p class="hero-text fade-in-up delay-2">Klarheit in Ihrer Buchhaltung. Wir organisieren Belege, Rechnungen
+                und Zahlen digital – in Zusammenarbeit mit Ihrem Steuerberater oder unserem Partner.</p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#contact" class="btn btn-primary">Jetzt anfragen</a>
+                <a href="#services" class="btn btn-outline">Leistungen ansehen</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Statistics / Trust Section -->
+        <section class="stats-section">
+            <div class="container stats-grid">
+                <div class="stat-item scroll-reveal">
+                    <h3>100%</h3>
+                    <p> Digitaler Workflow</p>
+                </div>
+                <div class="stat-item scroll-reveal delay-1">
+                    <h3>24/7</h3>
+                    <p>Erreichbarkeit</p>
+                </div>
+                <div class="stat-item scroll-reveal delay-2">
+                    <h3>GoBD</h3>
+                    <p>Prozesse nach GoBD-Grundsätzen</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="section-bg services-bg"></div>
+            <div class="section-overlay"></div>
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <h2 class="section-title">Unsere <span class="highlight">Kompetenz</span></h2>
+                    <p class="section-desc">Praktische Unterstützung für Ihre Finanzorganisation – digital, strukturiert
+                        und in enger Kooperation mit unserer Partner-Steuerkanzlei.</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card scroll-reveal">
+                        <div class="icon-box">01</div>
+                        <h3>Finanzielle Klarheit</h3>
+                        <p>Transparente Einblicke in Umsätze, Kosten und Liquidität. Treffen Sie Entscheidungen auf
+                            Basis sauber strukturierter Zahlen.</p>
+                    </article>
+                    <article class="service-card scroll-reveal delay-1">
+                        <div class="icon-box">02</div>
+                        <h3>Digitale Buchhaltung</h3>
+                        <p>Wir übernehmen Ihre laufende Buchhaltung digital und effizient. Belege werden strukturiert
+                            erfasst und für unsere Partner-Steuerkanzlei oder Ihren Steuerberater vorbereitet.</p>
+                    </article>
+                    <article class="service-card scroll-reveal delay-2">
+                        <div class="icon-box">03</div>
+                        <h3>Klare, dokumentierte Abläufe</h3>
+                        <p>Wir sorgen für klare Prozesse und vollständige Unterlagen. Für Abschlüsse und
+                            Steuererklärungen binden wir unsere Partner-Steuerkanzlei ein – entsprechend den
+                            gesetzlichen Vorgaben.</p>
+                    </article>
+                    <article class="service-card scroll-reveal delay-3">
+                        <div class="icon-box">04</div>
+                        <h3>Digitale Belegorganisation</h3>
+                        <p>Wir organisieren Belege, Verträge und Rechnungen – inklusive E-Rechnungen (z. B. XRechnung) –
+                            digital und übersichtlich.</p>
+                    </article>
+                    <article class="service-card scroll-reveal delay-4">
+                        <div class="icon-box">05</div>
+                        <h3>Auswertungen & Monatsreports</h3>
+                        <p>Monatliche Auswertungen zu Umsatz, offenen Posten und Liquidität. So behalten Sie Ihre Zahlen
+                            und Zahlungsströme im Blick.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container about-grid">
+                <div class="about-image scroll-reveal">
+                    <img src="assets/media/about-image.jpg" alt="Modern Office Team Collaboration"
+                        style="border-radius: 8px; box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
+                </div>
+                <div class="about-info scroll-reveal">
+                    <span class="tag">ÜBER ZAHLFIX</span>
+                    <h2>Mehr als nur Zahlen.</h2>
+                    <p>ZahlFix ist Ihre ausgelagerte Finanzabteilung für den Alltag. Wir verbinden kaufmännische Praxis
+                        mit digitaler Technik und der Expertise unserer Partner-Steuerkanzlei – damit Ihre Zahlen
+                        stimmen und Sie den Kopf frei haben.</p>
+                    <ul class="checklist">
+                        <li>Transparenz in jedem Schritt</li>
+                        <li>Digitale, automatisierte Buchhaltungsprozesse</li>
+                        <li>Persönliche Betreuung mit Anbindung an unsere Partner-Steuerkanzlei</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature / Parallax Section -->
+        <section id="digital" class="feature-parallax">
+            <div class="feature-bg parallax-bg"></div>
+            <div class="container feature-content">
+                <div class="feature-text scroll-reveal">
+                    <h2>Jetzt <span class="highlight">Digital</span> Starten.</h2>
+                    <p>Wir digitalisieren Ihre Buchhaltung – von der Belegablage bis zur E-Rechnung (z. B. XRechnung).
+                        Klare Prozesse, transparente Zahlen und direkte Anbindung an unsere Partner-Steuerkanzlei.</p>
+                    <a href="#contact" class="btn btn-primary">Digital-Check Anfragen</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-wrapper scroll-reveal">
+                    <div class="contact-info">
+                        <h2>Lassen Sie uns über Ihre <span class="highlight">Zahlen sprechen</span>.</h2>
+                        <p>Sie möchten Ihre Buchhaltung auslagern oder haben Fragen zu unseren Leistungen? Schreiben Sie
+                            uns für ein unverbindliches Erstgespräch.</p>
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <strong>Email</strong>
+                                <a href="mailto:info@zahlfix.de">info@zahlfix.de</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Phone</strong>
+                                <a href="tel:+49123456789">+49 123 456 789</a>
+                            </div>
+                            <div class="detail-item">
+                                <strong>Address</strong>
+                                <p style="color: white;">Musterstraße 1, 10115 Berlin</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">E-Mail</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" placeholder=" " required></textarea>
+                            <label for="message">Nachricht</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span>Nachricht senden</span>
+                            <div class="btn-shine"></div>
+                        </button>
+                        <p
+                            style="font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 1rem; text-align: center;">
+                            Bitte senden Sie keine vertraulichen steuerlichen Unterlagen über dieses Formular.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-col brand-col">
+                    <a href="#" class="footer-brand">ZAHLFIX<span class="highlight">.</span></a>
+                    <p class="footer-slogan">Rechtssicher & Digital.<br>Struktur für Ihre Zahlen.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Xing">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path
+                                    d="M16.3 3h-3.3L8.6 10.8l4.7 8.2h3.3l-4.7-8.2L16.3 3zM6.4 18h3.3l-2.2-3.8-3.3-5.8h-3.3l3.3 5.8L6.4 18z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#hero">Startseite</a></li>
+                        <li><a href="#services">Leistungen</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div class="footer-col">
+                    <h4>Rechtliches</h4>
+                    <ul class="footer-nav-list">
+                        <li><a href="#" id="impressum-link">Impressum</a></li>
+                        <li><a href="#">Datenschutz</a></li>
+                        <li><a href="#">AGB</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Short -->
+                <div class="footer-col">
+                    <h4>Kontakt</h4>
+                    <address>
+                        Rheinstraße 20,<br>
+                        12161 Berlin<br>
+                        Deutschland<br><br>
+                        <a href="mailto:info@zahlfix.de" class="contact-link">info@zahlfix.de</a>
+                    </address>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZahlFix. Alle Rechte vorbehalten.<br>Hinweis: ZahlFix erbringt ausschließlich
+                    kaufmännische Dienstleistungen im Sinne des § 6 Steuerberatungsgesetz (StBerG). Steuerliche
+                    Beratung, Jahresabschlüsse und Steuererklärungen übernimmt ausschließlich eine Steuerberaterin oder
+                    ein Steuerberater (z. B. unsere Partner-Steuerkanzlei).</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Legal Popup Modal -->
+    <div id="legal-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Testbetrieb Hinweis</h3>
+            <p>Diese Website befindet sich im internen Testbetrieb und dient ausschließlich der technischen und
+                gestalterischen Erprobung.</p>
+            <p>Es werden keine produktiven Kundendaten verarbeitet. Die endgültige Datenschutzerklärung wird vor dem
+                öffentlichen Start der Website vollständig ergänzt.</p>
+            <div class="highlight-box">
+                <p><strong>Bitte geben Sie in dieser Testversion keine sensiblen oder vertraulichen personenbezogenen
+                        Daten ein.</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
