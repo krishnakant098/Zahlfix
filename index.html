@@ -48,6 +48,24 @@
 
 <body>
     <div class="grain-overlay"></div>
+
+    <!-- Password Overlay -->
+    <div id="password-overlay" class="password-screen">
+        <div class="password-card">
+            <h2 class="password-brand">ZAHLFIX<span class="highlight">.</span></h2>
+            <p>Bitte Passwort eingeben</p>
+            <form id="password-form">
+                <div class="form-group">
+                    <input type="password" id="site-password" placeholder="Passwort" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span>Zugang entsperren</span>
+                    <div class="btn-shine"></div>
+                </button>
+                <p id="password-error" class="error-msg"></p>
+            </form>
+        </div>
+    </div>
     <!-- Custom Cursor -->
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
@@ -348,6 +366,4 @@
     <script src="assets/js/script.js"></script>
 </body>
 
-
 </html>
-

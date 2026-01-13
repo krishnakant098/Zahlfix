@@ -952,3 +952,54 @@ img {
     margin-bottom: 0;
     font-size: 0.9em;
 }
+
+/* --- Password Overlay --- */
+.password-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    z-index: 20000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--spacing-md);
+}
+
+.password-screen.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.6s ease-out;
+}
+
+.password-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-accent);
+    padding: 3rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(255, 215, 0, 0.1);
+}
+
+.password-brand {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.password-card p {
+    color: var(--color-text-muted);
+    margin-bottom: 2rem;
+}
+
+.error-msg {
+    color: #ff4444 !important;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+    min-height: 1.5em;
+}

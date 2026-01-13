@@ -117,6 +117,44 @@ function splitTextToChars(element) {
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger);
 
+    /* --- Password Logic --- */
+    const passwordOverlay = document.getElementById('password-overlay');
+    const passwordForm = document.getElementById('password-form');
+    const passwordInput = document.getElementById('site-password');
+    const passwordError = document.getElementById('password-error');
+    const validPassword = "Zahlfix2026"; // Simple client-side check
+
+    // Check if already authenticated
+    const isAuth = sessionStorage.getItem('auth');
+    if (isAuth && isAuth === 'true') {
+        if (passwordOverlay) {
+            passwordOverlay.classList.add('hidden');
+            passwordOverlay.style.display = 'none'; // Force hide to prevent flash
+        }
+        document.body.style.overflow = '';
+    } else {
+        document.body.style.overflow = 'hidden';
+    }
+
+    if (passwordForm) {
+        passwordForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (passwordInput.value === validPassword) {
+                sessionStorage.setItem('auth', 'true');
+                passwordOverlay.classList.add('hidden');
+                document.body.style.overflow = '';
+                passwordError.textContent = '';
+
+                // Allow animations to play if they were waiting
+                ScrollTrigger.refresh();
+            } else {
+                passwordError.textContent = 'Falsches Passwort';
+                passwordForm.classList.add('shake');
+                setTimeout(() => passwordForm.classList.remove('shake'), 500);
+            }
+        });
+    }
+
     // --- Lenis Smooth Scroll Setup ---
     const lenis = new Lenis({
         duration: 1.2,
