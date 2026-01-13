@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const passwordForm = document.getElementById('password-form');
     const passwordInput = document.getElementById('site-password');
     const passwordError = document.getElementById('password-error');
-    const validPassword = "Zahlfix2026"; // Simple client-side check
+    const validPassword = "2026"; // Simple client-side check
 
     // Check if already authenticated
     const isAuth = sessionStorage.getItem('auth');
@@ -499,3 +499,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
         console.error("Legal Modal elements not found:", { link, modal, span });
     }
 });
+
