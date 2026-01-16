@@ -476,14 +476,39 @@ document.addEventListener("DOMContentLoaded", (event) => {
     );
 
     // --- Legal Modal Logic ---
+    // --- Legal Modal Logic ---
     const modal = document.getElementById("legal-modal");
-    const link = document.getElementById("impressum-link");
+    // Select all links: Impressum, Datenschutz, AGB
+    const links = [
+        document.getElementById("impressum-link"),
+        document.getElementById("datenschutz-link"),
+        document.getElementById("agb-link")
+    ];
     const span = document.querySelector(".close-modal");
 
-    if (link && modal && span) {
-        link.addEventListener("click", function (e) {
-            e.preventDefault();
-            modal.style.display = "flex";
+    const modalTextDynamic = document.getElementById("modal-text-dynamic");
+
+    const textContentMap = {
+        "impressum-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige Impressum wird vor dem öffentlichen Start der Website vollständig ergänzt.",
+        "datenschutz-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige Datenschutz wird vor dem öffentlichen Start der Website vollständig ergänzt.",
+        "agb-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige AGB wird vor dem öffentlichen Start der Website vollständig ergänzt."
+    };
+
+    if (modal && span) {
+        // Attach listener to each link if it exists
+        links.forEach(link => {
+            if (link) {
+                link.addEventListener("click", function (e) {
+                    e.preventDefault();
+
+                    // Update text based on clicked link ID
+                    if (modalTextDynamic && textContentMap[link.id]) {
+                        modalTextDynamic.textContent = textContentMap[link.id];
+                    }
+
+                    modal.style.display = "flex";
+                });
+            }
         });
 
         span.addEventListener("click", function () {
@@ -496,7 +521,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         });
     } else {
-        console.error("Legal Modal elements not found:", { link, modal, span });
+        console.error("Legal Modal elements not found:", { modal, span });
     }
 });
 
