@@ -117,6 +117,53 @@ function splitTextToChars(element) {
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(ScrollTrigger);
 
+    /* --- Page Transitions --- */
+    const transitionOverlay = document.querySelector('.page-transition-overlay');
+
+    // Entrance Animation (Fade Out)
+    if (transitionOverlay) {
+        gsap.to(transitionOverlay, {
+            opacity: 0,
+            duration: 0.4,
+            ease: "power2.inOut",
+            onComplete: () => {
+                transitionOverlay.style.pointerEvents = "none";
+            }
+        });
+    }
+
+    // Exit Animation (Fade In) for Links
+    const internalLinks = document.querySelectorAll('a[href]:not([target="_blank"]):not([href^="#"]):not([href^="mailto:"]):not([href^="tel:"])');
+
+    internalLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            const target = link.getAttribute('href');
+            // Check if it's an internal navigation
+            const isInternal = target.startsWith('/') || target.startsWith('.') || target.includes(window.location.hostname) || !target.includes('http');
+
+            if (isInternal && transitionOverlay) {
+                e.preventDefault();
+                transitionOverlay.style.pointerEvents = "all"; // Block clicks during transition
+
+                gsap.to(transitionOverlay, {
+                    opacity: 1,
+                    duration: 0.3,
+                    ease: "power2.inOut",
+                    onComplete: () => {
+                        window.location.href = target;
+                    }
+                });
+            }
+        });
+    });
+
+    // Handle Back Button (bfcache)
+    window.addEventListener('pageshow', (event) => {
+        if (event.persisted && transitionOverlay) {
+            gsap.set(transitionOverlay, { opacity: 0 });
+        }
+    });
+
     /* --- Password Logic --- */
     const passwordOverlay = document.getElementById('password-overlay');
     const passwordForm = document.getElementById('password-form');
@@ -476,39 +523,21 @@ document.addEventListener("DOMContentLoaded", (event) => {
     );
 
     // --- Legal Modal Logic ---
-    // --- Legal Modal Logic ---
     const modal = document.getElementById("legal-modal");
-    // Select all links: Impressum, Datenschutz, AGB
-    const links = [
-        document.getElementById("impressum-link"),
-        document.getElementById("datenschutz-link"),
-        document.getElementById("agb-link")
-    ];
+    const agbLink = document.getElementById("agb-link");
     const span = document.querySelector(".close-modal");
-
     const modalTextDynamic = document.getElementById("modal-text-dynamic");
 
-    const textContentMap = {
-        "impressum-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige Impressum wird vor dem öffentlichen Start der Website vollständig ergänzt.",
-        "datenschutz-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige Datenschutz wird vor dem öffentlichen Start der Website vollständig ergänzt.",
-        "agb-link": "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige AGB wird vor dem öffentlichen Start der Website vollständig ergänzt."
-    };
+    const agbText = "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige AGB wird vor dem öffentlichen Start der Website vollständig ergänzt.";
 
-    if (modal && span) {
-        // Attach listener to each link if it exists
-        links.forEach(link => {
-            if (link) {
-                link.addEventListener("click", function (e) {
-                    e.preventDefault();
+    if (modal && span && agbLink) {
+        agbLink.addEventListener("click", function (e) {
+            e.preventDefault();
 
-                    // Update text based on clicked link ID
-                    if (modalTextDynamic && textContentMap[link.id]) {
-                        modalTextDynamic.textContent = textContentMap[link.id];
-                    }
-
-                    modal.style.display = "flex";
-                });
+            if (modalTextDynamic) {
+                modalTextDynamic.textContent = agbText;
             }
+            modal.style.display = "flex";
         });
 
         span.addEventListener("click", function () {
