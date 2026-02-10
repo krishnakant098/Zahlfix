@@ -521,36 +521,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
             ease: "power2.out"
         }
     );
-
-    // --- Legal Modal Logic ---
-    const modal = document.getElementById("legal-modal");
-    const agbLink = document.getElementById("agb-link");
-    const span = document.querySelector(".close-modal");
-    const modalTextDynamic = document.getElementById("modal-text-dynamic");
-
-    const agbText = "Es werden keine produktiven Kundendaten verarbeitet. Die endgültige AGB wird vor dem öffentlichen Start der Website vollständig ergänzt.";
-
-    if (modal && span && agbLink) {
-        agbLink.addEventListener("click", function (e) {
-            e.preventDefault();
-
-            if (modalTextDynamic) {
-                modalTextDynamic.textContent = agbText;
-            }
-            modal.style.display = "flex";
-        });
-
-        span.addEventListener("click", function () {
-            modal.style.display = "none";
-        });
-
-        window.addEventListener("click", function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        });
-    } else {
-        console.error("Legal Modal elements not found:", { modal, span });
-    }
 });
-
