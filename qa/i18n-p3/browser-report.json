@@ -1,0 +1,371 @@
+{
+  "passed": 73,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "All seven cinematic sections remain siblings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN first-paint scenes 15-20 rendered in English",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "English support + principles diagrams translate their static words",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Principles core state responds to scroll in English",
+      "passed": true,
+      "detail": "DELIVERY"
+    },
+    {
+      "name": "EN to DE preserves scene and scroll position",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "In-place DE switching updates text, diagram, and legal links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE to EN restores layout copy and localized legal links",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN contact copy generates English email draft with populated fields",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Language switch retains the partially completed contact form",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE contact copy now generates German email field labels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No page exceptions during language/contact switching",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 320
+    },
+    {
+      "name": "small/en: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/en: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 320
+    },
+    {
+      "name": "small/de: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/de: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 390
+    },
+    {
+      "name": "phone/en: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/en: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 390
+    },
+    {
+      "name": "phone/de: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/de: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 768
+    },
+    {
+      "name": "tablet/en: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/en: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 768
+    },
+    {
+      "name": "tablet/de: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/de: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 1430
+    },
+    {
+      "name": "desktop/en: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/en: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 1430
+    },
+    {
+      "name": "desktop/de: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/de: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 844
+    },
+    {
+      "name": "landscape/en: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/en: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scenes 15-20 main lines fit viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scene headings stay horizontally in frame",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scene 15-19 holds reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 844
+    },
+    {
+      "name": "landscape/de: contact fields/required controls remain accessible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/de: no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Reduced motion has full 20-scene English narrative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced motion DE switch adapts final transcript and contact",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

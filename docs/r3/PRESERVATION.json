@@ -1,0 +1,134 @@
+{
+  "baseline": "6.11.0-r2.0",
+  "release": "6.12.0-r3.0",
+  "protectedFiles": [
+    {
+      "file": "public/assets/v6/phase1-brand.js",
+      "unchanged": true,
+      "sha256": "8393ff34549e16d210342aedaba4914758108933d63abba2bea22c9e7512ca76"
+    },
+    {
+      "file": "public/assets/v6/phase1-geometry.js",
+      "unchanged": true,
+      "sha256": "120e27896e9e5b48f418a00002b9095fe5da3488ec6b73026073b11a225bb2b7"
+    },
+    {
+      "file": "public/assets/v6/phase1-timeline.js",
+      "unchanged": true,
+      "sha256": "b0b047f0c2522db83c66c08602dce5fbb416c64b10d22665abb05e911fdb288c"
+    },
+    {
+      "file": "public/assets/v6/scene-registry.js",
+      "unchanged": true,
+      "sha256": "4c8caf61047e84d041af82529e4d1a718af1c460e690b3a72704d1afcaa51f4e"
+    },
+    {
+      "file": "public/assets/v6/main.js",
+      "unchanged": true,
+      "sha256": "858b330b019b831136bcbb905d414212bca442393dd290999807b2a1fd54236d"
+    },
+    {
+      "file": "public/assets/v6/webgl-world.js",
+      "unchanged": true,
+      "sha256": "7da28e9d84a9a60ac34922b1eebce5be93d3c0a600400ab4f1ef455be9e8fbe9"
+    },
+    {
+      "file": "public/assets/v6/boot.js",
+      "unchanged": true,
+      "sha256": "06fcae636536b9a3f58490b4c13862dcfdac601bcc3968ef7ace734b89fadc40"
+    },
+    {
+      "file": "public/assets/v6/contact.js",
+      "unchanged": true,
+      "sha256": "2ea67bae46757a528c4d4a0c01e2355304dc68a68c68c5b408230470daa005a9"
+    },
+    {
+      "file": "public/assets/zahlfix-z-logo.png",
+      "unchanged": true,
+      "sha256": "d8701919d12befa3afbbea004f1ae367014f2cfc29fa5501574104f53eccf82d"
+    },
+    {
+      "file": "netlify.toml",
+      "unchanged": true,
+      "sha256": "e4284f894d61a9cabdf6e4233c43c67275a9f1e5de702ff0d3f3e81fbb2bfb71"
+    },
+    {
+      "file": "public/impressum.html",
+      "unchanged": true,
+      "sha256": "6460c30946532b4dca2d13aa30a22a6215893f494e97a61b139466a815abc6f9"
+    },
+    {
+      "file": "public/datenschutz.html",
+      "unchanged": true,
+      "sha256": "0ccb2c97287e191c9b2bc2408d0971c53c2c6437670b4af3447ec6686cf0f72d"
+    },
+    {
+      "file": "netlify/edge-functions/auth-gate.mjs",
+      "unchanged": true,
+      "sha256": "0d189927060c9d9961334584353fd9de0edf311324c2cf24c21ac0ad386497a6"
+    },
+    {
+      "file": "netlify/functions/_auth.mjs",
+      "unchanged": true,
+      "sha256": "7bd5e8feaea4cc1b8bd07e549dd79fcd6c1c366001655e04ccdf1eb588beec57"
+    },
+    {
+      "file": "netlify/functions/_rate.mjs",
+      "unchanged": true,
+      "sha256": "9a013519d3acab76ea13628b43519ca6631570ff44f5e4ac7937949331b7d767"
+    },
+    {
+      "file": "netlify/functions/_request.mjs",
+      "unchanged": true,
+      "sha256": "78f5604b743f13e058308271960d341e89c079ac3bcb13360fb197ad9c6bd2ac"
+    },
+    {
+      "file": "netlify/functions/login.mjs",
+      "unchanged": true,
+      "sha256": "e24587cd58ffb2d73fd54aa0c2cd19ffa6492db1a3e3360e37f45bc86a6fcc5c"
+    },
+    {
+      "file": "netlify/functions/logout.mjs",
+      "unchanged": true,
+      "sha256": "ce302d82d596c6b5b4b2dae858beb9d6032d484d05811abafc3cf37c786a646e"
+    },
+    {
+      "file": "netlify/functions/setup.mjs",
+      "unchanged": true,
+      "sha256": "f6c3e19312ffe8cd3ef97461b03f24b4339b068208c4e83d3d3b85ffc42f981f"
+    },
+    {
+      "file": "public/index.html outside generated visual stage",
+      "unchanged": true,
+      "sha256": "8ad9ede99ff237f06f0d50ef7adfee4d642dcb28a0c3c718027167d354966eb2"
+    }
+  ],
+  "allProtectedUnchanged": true,
+  "changedNonEvidenceFiles": [
+    "CHANGELOG.md",
+    "README.md",
+    "package.json",
+    "public/assets/scene-01-05/capture-aperture.svg",
+    "public/assets/scene-01-05/document-analytics-compact.svg",
+    "public/assets/scene-01-05/document-analytics.svg",
+    "public/assets/scene-01-05/document-approval-compact.svg",
+    "public/assets/scene-01-05/document-approval.svg",
+    "public/assets/scene-01-05/document-code-compact.svg",
+    "public/assets/scene-01-05/document-code.svg",
+    "public/assets/scene-01-05/document-data-compact.svg",
+    "public/assets/scene-01-05/document-data.svg",
+    "public/assets/scene-01-05/document-report-compact.svg",
+    "public/assets/scene-01-05/document-report.svg",
+    "public/assets/scene-01-05/document-workflow-compact.svg",
+    "public/assets/scene-01-05/document-workflow.svg",
+    "public/assets/v6/phase1-visuals.js",
+    "public/assets/v6/phase1.css",
+    "public/index.html",
+    "tests/browser/phase1-lifecycle.py",
+    "tests/browser/phase1-motion.py",
+    "tests/browser/phase1-regression.py",
+    "tools/build-phase1-assets.mjs",
+    "tools/check-phase1-capture.mjs",
+    "tools/check-phase1-layouts.mjs"
+  ]
+}

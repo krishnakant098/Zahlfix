@@ -1,0 +1,268 @@
+{
+  "mode": "in-memory fixtures and synthetic viewport/lifecycle/failure injection; authentication templates use in-memory storage; separate software WebGL smoke",
+  "passed": 46,
+  "failed": 0,
+  "results": [
+    {
+      "test": "page-transition pauses active orbital time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "page-transition resume excludes elapsed paused time",
+      "passed": true,
+      "detail": 0.0895000000003725
+    },
+    {
+      "test": "freeze pauses active orbital time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "freeze resume excludes elapsed paused time",
+      "passed": true,
+      "detail": 0.08440000000000003
+    },
+    {
+      "test": "open menu pauses orbital time",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "orientation in Z takeover preserves progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "orientation in takeover keeps the same visible origin",
+      "passed": true,
+      "detail": 1.422641883447507e-05
+    },
+    {
+      "test": "synthetic touch-toolbar expansion keeps stage and scroll stable",
+      "passed": true,
+      "detail": {
+        "before": {
+          "y": 3247,
+          "h": 744,
+          "p": 0.16801203277009727
+        },
+        "after": {
+          "y": 3247,
+          "h": 744,
+          "p": 0.16801203277009727
+        }
+      }
+    },
+    {
+      "test": "synthetic keyboard resize leaves narrative mapping unchanged",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "synthetic keyboard keeps field reachable in visible region",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "synthetic keyboard does not discard enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "enlarged root type selects flowing readable presentation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "flowing presentation retains all 20 narrative beats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "in-place fallback retains entered enquiry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "resume cannot restart animation after readable fallback",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "text fallback clears gold-scene header theme",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "text fallback contact navigation reaches natural-flow title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "reduced-motion retains readable narrative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "reduced-motion removes blocking loader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "reduced-motion retains direct email access",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "reduced-motion has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "module-failure retains readable narrative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "module-failure removes blocking loader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "module-failure retains direct email access",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "module-failure has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no-javascript retains readable narrative",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no-javascript removes blocking loader",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no-javascript retains direct email access",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no-javascript has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "isolated scene failure retains complete static artwork",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "isolated scene failure leaves navigation working",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "PIN authentication templates generated from request handlers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "login 320 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "login 320 input reachable",
+      "passed": true,
+      "detail": {
+        "x": 40.203125,
+        "y": 261.578125,
+        "width": 190.390625,
+        "height": 60
+      }
+    },
+    {
+      "test": "login 844 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "login 844 input reachable",
+      "passed": true,
+      "detail": {
+        "x": 205.65625,
+        "y": 228.515625,
+        "width": 446,
+        "height": 66
+      }
+    },
+    {
+      "test": "setup 320 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "setup 320 input reachable",
+      "passed": true,
+      "detail": {
+        "x": 45,
+        "y": 251.34375,
+        "width": 230,
+        "height": 66
+      }
+    },
+    {
+      "test": "setup 844 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "setup 844 input reachable",
+      "passed": true,
+      "detail": {
+        "x": 428,
+        "y": 161.53125,
+        "width": 357.25,
+        "height": 66
+      }
+    },
+    {
+      "test": "impressum 320 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "impressum 844 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "datenschutz 320 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "datenschutz 844 has no horizontal clipping",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "default WebGL/fallback path initializes later scenes without uncaught errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "test": "ribbon image loads with WebGL enabled",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

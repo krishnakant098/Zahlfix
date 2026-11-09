@@ -1,0 +1,79 @@
+{
+  "scope": "Actual Node HTTP server on loopback; no browser CSP or Netlify authentication certification",
+  "passed": 18,
+  "failed": 0,
+  "results": [
+    {
+      "test": "/ served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/ uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/assets/v6/mobile-r4.css served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/assets/v6/mobile-r4.css uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/assets/v6/mobile-layout.js served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/assets/v6/mobile-layout.js uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-96.webp served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-96.webp uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-384.webp served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-384.webp uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-silhouette.svg served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/assets/brand/zahlfix-ribbon-silhouette.svg uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/impressum.html served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/impressum.html uncached local response",
+      "passed": true
+    },
+    {
+      "test": "/datenschutz.html served with expected MIME",
+      "passed": true
+    },
+    {
+      "test": "/datenschutz.html uncached local response",
+      "passed": true
+    },
+    {
+      "test": "unknown resources return 404",
+      "passed": true
+    },
+    {
+      "test": "local preview explicitly identifies unauthenticated mode",
+      "passed": true
+    }
+  ]
+}

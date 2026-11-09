@@ -1,0 +1,435 @@
+{
+  "passed": 85,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "EN first-paint scene 09/10/14 composed and rendered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scene 08 initial EN DOM reads naturally without CSS-order hacks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN service-card buttons and aria labels match language",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Capability focus is recomposed in English by runtime",
+      "passed": true,
+      "detail": "Process improvement"
+    },
+    {
+      "name": "Workflow status is runtime-localized in English",
+      "passed": true,
+      "detail": [
+        "03 / IMPROVE",
+        "Remove the drag",
+        "Reduce delays, rework and unnecessary handoffs."
+      ]
+    },
+    {
+      "name": "AI portal is dynamically localized in English",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN→DE switch preserves scene DOM, scroll position and requests German route",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE scene, technical diagram and service controls now German",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scene 08 DE DOM reading order correct after in-place switch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Workflow stays German after scroll and rerender",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE→EN switches dynamic workflow labels while scene is retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Scene 08 EN DOM reading order restored after switching back",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No JavaScript exceptions during scene switching",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 320
+    },
+    {
+      "name": "small/en: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/en: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 320
+    },
+    {
+      "name": "small/de: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/de: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 390
+    },
+    {
+      "name": "phone/en: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/en: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 390
+    },
+    {
+      "name": "phone/de: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/de: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 768
+    },
+    {
+      "name": "tablet/en: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/en: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 768
+    },
+    {
+      "name": "tablet/de: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/de: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 1430
+    },
+    {
+      "name": "desktop/en: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/en: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 1430
+    },
+    {
+      "name": "desktop/de: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/de: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: no horizontal document overflow",
+      "passed": true,
+      "detail": 844
+    },
+    {
+      "name": "landscape/en: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/en: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scene 08–14 headings remain inside viewport",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: language-aware lines do not overflow horizontally",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scene 08–14 reach readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: no horizontal document overflow",
+      "passed": true,
+      "detail": 844
+    },
+    {
+      "name": "landscape/de: all 10 capability names fit cards",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: all 10 capability cards retain nonempty text and accessible names",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/de: no browser JS exceptions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Reduced-motion English includes full 01–14 transcript and capability list",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reduced-motion language switching adapts transcript and static service list",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

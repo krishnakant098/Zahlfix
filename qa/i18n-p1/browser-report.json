@@ -1,0 +1,532 @@
+{
+  "mode": "Chromium in-memory DOM using real authored locale routes and source assets",
+  "passed": 86,
+  "failed": 0,
+  "results": [
+    {
+      "name": "EN semantic markup and runtime locale agree",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN scene headlines, transcript and navigation are authored in English",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "No uncaught browser JS exception",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "EN→DE switches in place, preserves scroll/DOM and changes canonical path request",
+      "passed": true,
+      "detail": {
+        "lang": "de",
+        "seen": 719,
+        "scroll": 1234,
+        "route": "/de/"
+      }
+    },
+    {
+      "name": "German approved headline and transcript restored on switch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE selector receives current-language state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE canonical metadata follows in-place language switch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "DE→EN restores language-specific editorial lines in the DOM",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "EN canonical metadata restored on return switch",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Dynamic next-scene accessibility prompt uses current language",
+      "passed": true,
+      "detail": "Continue to next scene (8 / 20)"
+    },
+    {
+      "name": "Menu uses English copy and opens accessibly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Switching in open menu keeps menu/scene ownership intact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Dynamic next-scene accessibility prompt becomes German",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/en: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/en: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/en: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 193,
+          "right": 221
+        },
+        {
+          "left": 224,
+          "right": 252
+        }
+      ]
+    },
+    {
+      "name": "small/en: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "small/de: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "small/de: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 193,
+          "right": 221
+        },
+        {
+          "left": 224,
+          "right": 252
+        }
+      ]
+    },
+    {
+      "name": "small/de: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/en: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/en: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 258,
+          "right": 285
+        },
+        {
+          "left": 288,
+          "right": 315
+        }
+      ]
+    },
+    {
+      "name": "phone/en: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "phone/de: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "phone/de: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 258,
+          "right": 285
+        },
+        {
+          "left": 288,
+          "right": 315
+        }
+      ]
+    },
+    {
+      "name": "phone/de: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/en: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/en: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 636,
+          "right": 663
+        },
+        {
+          "left": 666,
+          "right": 693
+        }
+      ]
+    },
+    {
+      "name": "tablet/en: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tablet/de: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "tablet/de: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 636,
+          "right": 663
+        },
+        {
+          "left": 666,
+          "right": 693
+        }
+      ]
+    },
+    {
+      "name": "tablet/de: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/en: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/en: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 1225.21875,
+          "right": 1255.21875
+        },
+        {
+          "left": 1258.21875,
+          "right": 1288.21875
+        }
+      ]
+    },
+    {
+      "name": "desktop/en: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "desktop/de: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "desktop/de: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 1225.21875,
+          "right": 1255.21875
+        },
+        {
+          "left": 1258.21875,
+          "right": 1288.21875
+        }
+      ]
+    },
+    {
+      "name": "desktop/de: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/en: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/en: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 706,
+          "right": 736
+        },
+        {
+          "left": 739,
+          "right": 769
+        }
+      ]
+    },
+    {
+      "name": "landscape/en: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "landscape/de: scene 01–07 lines fit viewport at their own readable holds",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: authored headline lines stay unwrapped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: each headline clears header and Continue",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: scene 01–07 lines reach full readable opacity",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "landscape/de: language controls fit viewport",
+      "passed": true,
+      "detail": [
+        {
+          "left": 706,
+          "right": 736
+        },
+        {
+          "left": 739,
+          "right": 769
+        }
+      ]
+    },
+    {
+      "name": "landscape/de: no uncaught JS errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Reduced-motion English transcript remains readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "en: first paint has correctly pre-rendered copy without JS",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "de: first paint has correctly pre-rendered copy without JS",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

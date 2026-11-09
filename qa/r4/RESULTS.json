@@ -1,0 +1,36 @@
+{
+  "acceptance-small-phone-tablet.json": {
+    "passed": 226,
+    "failed": 0
+  },
+  "acceptance-landscape-desktop.json": {
+    "passed": 149,
+    "failed": 0
+  },
+  "acceptance-medium-large-phone-large-tablet-zoom.json": {
+    "passed": 301,
+    "failed": 0
+  },
+  "lifecycle-fallback.json": {
+    "passed": 46,
+    "failed": 0
+  },
+  "asset-verification.json": {
+    "passed": 126,
+    "failed": 0
+  },
+  "local-http.json": {
+    "passed": 18,
+    "failed": 0
+  },
+  "geometry-sweep.json": {
+    "passed": true,
+    "layouts": 9
+  },
+  "capture-sweep.json": {
+    "passed": true,
+    "layouts": 9
+  },
+  "sourceAssertions": 178,
+  "unitTests": 47
+}

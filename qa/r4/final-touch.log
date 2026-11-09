@@ -1,0 +1,227 @@
+PASS small: complete opening at scroll zero
+PASS small: ribbon surface loaded locally
+PASS small: nine records and three precise tracks
+PASS small: primary touch controls at least 44px high
+PASS small: menu target is at least 44px wide
+PASS small: pointer Continue reaches readable consulting state
+PASS small: focus follows scene navigation
+PASS small: keyboard Continue reaches implementation state
+PASS small: scene 01 readable hold
+PASS small: scene 01 text stays within viewport
+PASS small: scene 02 readable hold
+PASS small: scene 02 text stays within viewport
+PASS small: scene 03 readable hold
+PASS small: scene 03 text stays within viewport
+PASS small: scene 04 readable hold
+PASS small: scene 04 text stays within viewport
+PASS small: scene 05 readable hold
+PASS small: scene 05 text stays within viewport
+PASS small: scene 06 readable hold
+PASS small: scene 06 text stays within viewport
+PASS small: scene 07 readable hold
+PASS small: scene 07 text stays within viewport
+PASS small: scene 08 readable hold
+PASS small: scene 08 text stays within viewport
+PASS small: scene 09 readable hold
+PASS small: scene 09 text stays within viewport
+PASS small: scene 10 readable hold
+PASS small: scene 10 text stays within viewport
+PASS small: scene 11 readable hold
+PASS small: scene 11 text stays within viewport
+PASS small: scene 12 readable hold
+PASS small: scene 12 text stays within viewport
+PASS small: scene 13 readable hold
+PASS small: scene 13 text stays within viewport
+PASS small: scene 14 readable hold
+PASS small: scene 14 text stays within viewport
+PASS small: scene 15 readable hold
+PASS small: scene 15 text stays within viewport
+PASS small: scene 16 readable hold
+PASS small: scene 16 text stays within viewport
+PASS small: scene 17 readable hold
+PASS small: scene 17 text stays within viewport
+PASS small: scene 18 readable hold
+PASS small: scene 18 text stays within viewport
+PASS small: scene 19 readable hold
+PASS small: scene 19 text stays within viewport
+PASS small: scene 20 readable hold
+PASS small: capture trajectory stays stable on scroll hold
+PASS small: ribbon takeover origin remains within one CSS pixel
+PASS small: actual ribbon silhouette covers viewport before handoff
+PASS small: ring nodes track exact drawn curves
+PASS small: ring geometry stays clear of viewport edges
+PASS small: unroll nodes track exact drawn curves
+PASS small: unroll geometry stays clear of viewport edges
+PASS small: rail nodes track exact drawn curves
+PASS small: rail geometry stays clear of viewport edges
+PASS small: curl nodes track exact drawn curves
+PASS small: curl geometry stays clear of viewport edges
+PASS small: atom nodes track exact drawn curves
+PASS small: atom geometry stays clear of viewport edges
+PASS small: service 01 reachable and selectable
+PASS small: service 08 reachable and selectable
+PASS small: service 10 reachable and selectable
+PASS small: orientation preserves scene progress
+PASS small: contact CTA lands on visible contact title
+PASS small: header and menu remain reachable in native contact
+PASS small: contact belongs to native page flow
+PASS small: form text survives orientation
+PASS small: enquiry action reachable without clipping
+PASS small: copy action gives feedback without sending mail
+PASS small: legal links reachable
+PASS small: menu internally scrolls to last destination
+PASS small: Escape restores focus to menu trigger
+PASS small: reverse/fast seek restores intended reading state
+PASS small: no horizontal document overflow
+PASS phone: complete opening at scroll zero
+PASS phone: ribbon surface loaded locally
+PASS phone: nine records and three precise tracks
+PASS phone: primary touch controls at least 44px high
+PASS phone: menu target is at least 44px wide
+PASS phone: pointer Continue reaches readable consulting state
+PASS phone: focus follows scene navigation
+PASS phone: keyboard Continue reaches implementation state
+PASS phone: scene 01 readable hold
+PASS phone: scene 01 text stays within viewport
+PASS phone: scene 02 readable hold
+PASS phone: scene 02 text stays within viewport
+PASS phone: scene 03 readable hold
+PASS phone: scene 03 text stays within viewport
+PASS phone: scene 04 readable hold
+PASS phone: scene 04 text stays within viewport
+PASS phone: scene 05 readable hold
+PASS phone: scene 05 text stays within viewport
+PASS phone: scene 06 readable hold
+PASS phone: scene 06 text stays within viewport
+PASS phone: scene 07 readable hold
+PASS phone: scene 07 text stays within viewport
+PASS phone: scene 08 readable hold
+PASS phone: scene 08 text stays within viewport
+PASS phone: scene 09 readable hold
+PASS phone: scene 09 text stays within viewport
+PASS phone: scene 10 readable hold
+PASS phone: scene 10 text stays within viewport
+PASS phone: scene 11 readable hold
+PASS phone: scene 11 text stays within viewport
+PASS phone: scene 12 readable hold
+PASS phone: scene 12 text stays within viewport
+PASS phone: scene 13 readable hold
+PASS phone: scene 13 text stays within viewport
+PASS phone: scene 14 readable hold
+PASS phone: scene 14 text stays within viewport
+PASS phone: scene 15 readable hold
+PASS phone: scene 15 text stays within viewport
+PASS phone: scene 16 readable hold
+PASS phone: scene 16 text stays within viewport
+PASS phone: scene 17 readable hold
+PASS phone: scene 17 text stays within viewport
+PASS phone: scene 18 readable hold
+PASS phone: scene 18 text stays within viewport
+PASS phone: scene 19 readable hold
+PASS phone: scene 19 text stays within viewport
+PASS phone: scene 20 readable hold
+PASS phone: capture trajectory stays stable on scroll hold
+PASS phone: ribbon takeover origin remains within one CSS pixel
+PASS phone: actual ribbon silhouette covers viewport before handoff
+PASS phone: ring nodes track exact drawn curves
+PASS phone: ring geometry stays clear of viewport edges
+PASS phone: unroll nodes track exact drawn curves
+PASS phone: unroll geometry stays clear of viewport edges
+PASS phone: rail nodes track exact drawn curves
+PASS phone: rail geometry stays clear of viewport edges
+PASS phone: curl nodes track exact drawn curves
+PASS phone: curl geometry stays clear of viewport edges
+PASS phone: atom nodes track exact drawn curves
+PASS phone: atom geometry stays clear of viewport edges
+PASS phone: service 01 reachable and selectable
+PASS phone: service 08 reachable and selectable
+PASS phone: service 10 reachable and selectable
+PASS phone: orientation preserves scene progress
+PASS phone: contact CTA lands on visible contact title
+PASS phone: header and menu remain reachable in native contact
+PASS phone: contact belongs to native page flow
+PASS phone: form text survives orientation
+PASS phone: enquiry action reachable without clipping
+PASS phone: copy action gives feedback without sending mail
+PASS phone: legal links reachable
+PASS phone: menu internally scrolls to last destination
+PASS phone: Escape restores focus to menu trigger
+PASS phone: reverse/fast seek restores intended reading state
+PASS phone: no horizontal document overflow
+PASS tablet: complete opening at scroll zero
+PASS tablet: ribbon surface loaded locally
+PASS tablet: nine records and three precise tracks
+PASS tablet: primary touch controls at least 44px high
+PASS tablet: menu target is at least 44px wide
+PASS tablet: pointer Continue reaches readable consulting state
+PASS tablet: focus follows scene navigation
+PASS tablet: keyboard Continue reaches implementation state
+PASS tablet: scene 01 readable hold
+PASS tablet: scene 01 text stays within viewport
+PASS tablet: scene 02 readable hold
+PASS tablet: scene 02 text stays within viewport
+PASS tablet: scene 03 readable hold
+PASS tablet: scene 03 text stays within viewport
+PASS tablet: scene 04 readable hold
+PASS tablet: scene 04 text stays within viewport
+PASS tablet: scene 05 readable hold
+PASS tablet: scene 05 text stays within viewport
+PASS tablet: scene 06 readable hold
+PASS tablet: scene 06 text stays within viewport
+PASS tablet: scene 07 readable hold
+PASS tablet: scene 07 text stays within viewport
+PASS tablet: scene 08 readable hold
+PASS tablet: scene 08 text stays within viewport
+PASS tablet: scene 09 readable hold
+PASS tablet: scene 09 text stays within viewport
+PASS tablet: scene 10 readable hold
+PASS tablet: scene 10 text stays within viewport
+PASS tablet: scene 11 readable hold
+PASS tablet: scene 11 text stays within viewport
+PASS tablet: scene 12 readable hold
+PASS tablet: scene 12 text stays within viewport
+PASS tablet: scene 13 readable hold
+PASS tablet: scene 13 text stays within viewport
+PASS tablet: scene 14 readable hold
+PASS tablet: scene 14 text stays within viewport
+PASS tablet: scene 15 readable hold
+PASS tablet: scene 15 text stays within viewport
+PASS tablet: scene 16 readable hold
+PASS tablet: scene 16 text stays within viewport
+PASS tablet: scene 17 readable hold
+PASS tablet: scene 17 text stays within viewport
+PASS tablet: scene 18 readable hold
+PASS tablet: scene 18 text stays within viewport
+PASS tablet: scene 19 readable hold
+PASS tablet: scene 19 text stays within viewport
+PASS tablet: scene 20 readable hold
+PASS tablet: capture trajectory stays stable on scroll hold
+PASS tablet: ribbon takeover origin remains within one CSS pixel
+PASS tablet: actual ribbon silhouette covers viewport before handoff
+PASS tablet: ring nodes track exact drawn curves
+PASS tablet: ring geometry stays clear of viewport edges
+PASS tablet: unroll nodes track exact drawn curves
+PASS tablet: unroll geometry stays clear of viewport edges
+PASS tablet: rail nodes track exact drawn curves
+PASS tablet: rail geometry stays clear of viewport edges
+PASS tablet: curl nodes track exact drawn curves
+PASS tablet: curl geometry stays clear of viewport edges
+PASS tablet: atom nodes track exact drawn curves
+PASS tablet: atom geometry stays clear of viewport edges
+PASS tablet: service 01 reachable and selectable
+PASS tablet: service 08 reachable and selectable
+PASS tablet: service 10 reachable and selectable
+PASS tablet: orientation preserves scene progress
+PASS tablet: contact CTA lands on visible contact title
+PASS tablet: header and menu remain reachable in native contact
+PASS tablet: contact belongs to native page flow
+PASS tablet: form text survives orientation
+PASS tablet: enquiry action reachable without clipping
+PASS tablet: copy action gives feedback without sending mail
+PASS tablet: legal links reachable
+PASS tablet: menu internally scrolls to last destination
+PASS tablet: Escape restores focus to menu trigger
+PASS tablet: reverse/fast seek restores intended reading state
+PASS tablet: no horizontal document overflow
+PASS no uncaught browser errors
+{"passed": 226, "failed": 0}

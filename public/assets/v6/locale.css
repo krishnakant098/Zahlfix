@@ -1,0 +1,92 @@
+/* P1 — deliberately compact bilingual controls. No cinematic node geometry is changed. */
+.language-toggle{display:inline-flex;flex-shrink:0;align-items:center;justify-content:center;gap:1px;min-height:44px;padding:2px;border:1px solid currentColor;border-color:color-mix(in srgb,currentColor 35%,transparent);border-radius:2px;color:inherit;font:600 11px ui-monospace,Consolas,monospace;letter-spacing:.08em;white-space:nowrap}
+.language-toggle a{display:inline-flex;justify-content:center;align-items:center;min-width:30px;min-height:36px;padding:0 4px;color:inherit;text-decoration:none;opacity:.68;border-radius:1px;transition:background-color .18s ease,color .18s ease,opacity .18s ease}
+.language-toggle a:hover,.language-toggle a:focus-visible{opacity:1}
+.language-toggle a[aria-current="true"]{background:#c39438;color:#10110e;opacity:1}
+.language-toggle>span{width:1px;height:17px;background:currentColor;opacity:.24}
+.menu-language{position:relative;z-index:2;max-width:1120px;margin:2px auto 20px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:4px 0 20px;color:#e2c787;font:10px ui-monospace,Consolas,monospace;letter-spacing:.1em;opacity:0;transform:translateY(-12px);transition:opacity .32s ease,transform .32s ease}
+.menu-overlay.is-open .menu-language{opacity:1;transform:none;transition-delay:.34s}
+.language-toggle--menu{color:#f4f2ea;border-color:#e2c78780}
+.language-toggle--menu a{min-width:42px}
+html[data-lang="en"] .hero-copy.story-beat--01{width:min(52vw,860px)}
+html[data-lang="en"] .hero-copy .hero-line--2{letter-spacing:-.046em;max-width:53vw}
+html[data-lang="en"] .story-beat--02 strong{letter-spacing:-.065em}
+html[data-lang="en"] .principle-copy.story-beat--04 h2{letter-spacing:-.057em}
+html[data-lang="en"] .story-beat--05 strong,html[data-lang="en"] .story-beat--06 strong{letter-spacing:-.055em}
+html[data-lang="en"] .story-beat--07 strong{letter-spacing:-.064em}
+@media(max-width:1100px){.topbar__right{gap:12px}}
+@media(max-width:800px){.topbar__right{gap:7px}.language-toggle{min-height:44px;font-size:10px;padding:2px}.language-toggle a{min-width:27px;padding:0 3px}.menu-language{padding-bottom:16px}html[data-lang="en"][data-stacked="true"] .hero-copy.story-beat--01,html[data-lang="en"][data-stacked="true"] .principle-copy.story-beat--04{width:auto}html[data-lang="en"][data-stacked="true"] .hero-copy .hero-line--2{max-width:none;letter-spacing:-.055em}}
+@media(max-width:380px){html[data-compact="true"] .challenge-trigger{display:none!important}.topbar__right{gap:5px}.language-toggle a{min-width:28px}}
+@media(max-height:480px){.menu-language{margin-bottom:8px}.menu-list{margin-top:16px}}
+@media(prefers-reduced-motion:reduce){.language-toggle a,.menu-language{transition:none!important}}
+
+/* DE type composition: keep each intentionally authored line as one line.
+ * The approved German sentences remain unchanged; scale is optically tuned
+ * per language instead of inheriting English headline dimensions. */
+html[data-lang="de"] .hero-copy .hero-line--1{font-size:clamp(42px,4.75vw,95px);white-space:nowrap}
+html[data-lang="de"] .story-beat--07 strong{font-size:clamp(42px,6.05vw,105px)}
+@media(max-width:800px){
+  html[data-lang="de"][data-stacked="true"] .hero-copy .hero-line--1{font-size:clamp(1.7rem,9vw,4.4rem)}
+  html[data-lang="de"][data-stacked="true"] .story-beat--05 strong{font-size:clamp(1.5rem,7.7vw,4rem)}
+  html[data-lang="de"][data-stacked="true"] .story-beat--07 strong{font-size:clamp(1.85rem,8.3vw,4.5rem)}
+}
+
+
+/* P2 — deliberate EN/DE copy composition; preserve the cinematic geometry. */
+.scene08-wordmark{display:flex!important;align-items:baseline;gap:clamp(11px,1.35vw,22px);white-space:nowrap}
+.scene08-wordmark>b{font:inherit;font-weight:inherit;letter-spacing:inherit}
+.scene08-wordmark>em{font:inherit;font-style:italic;color:var(--blue)}
+.scene--services .services-title strong span{display:inline}
+.service-card>small,#capabilityFocusName{text-transform:uppercase}
+html[data-lang="en"] .services-title strong{max-width:19ch;letter-spacing:-.045em}
+html[data-lang="en"] .workflow-copy strong{letter-spacing:-.05em}
+html[data-lang="en"] .content-beat--11 strong{letter-spacing:-.052em}
+html[data-lang="en"] .scene--reporting .content-beat--technology strong{letter-spacing:-.052em}
+html[data-lang="de"] .scene--reporting .content-beat--12 strong{letter-spacing:-.05em}
+html[data-lang="de"] .scene--reporting .content-beat--13 strong{letter-spacing:-.055em}
+html[data-lang="en"] .ai-system__label b, html[data-lang="en"] .architecture-label b{letter-spacing:.04em}
+@media(max-width:800px){
+ html[data-lang="en"][data-stacked="true"] .story-beat--08 strong{font-size:clamp(1.75rem,8.2vw,4.1rem)}
+ html[data-lang="de"][data-stacked="true"] .story-beat--08 strong{font-size:clamp(1.75rem,8vw,4.2rem)}
+ html[data-lang="en"][data-compact="true"] .services-title strong{font-size:clamp(1.45rem,5.8vw,2.6rem)}
+ html[data-lang="de"][data-compact="true"] .services-title strong{font-size:clamp(1.35rem,5.5vw,2.5rem)}
+ html[data-lang="en"][data-compact="true"] .service-select .service-name{font-size:clamp(12px,3.25vw,16px);line-height:1.23}
+ html[data-lang="de"][data-compact="true"] .service-select .service-name{font-size:clamp(12px,3.2vw,16px);line-height:1.23}
+ html[data-lang="en"][data-stacked="true"] .workflow-copy strong{font-size:clamp(1.8rem,7.9vw,3.85rem)}
+ html[data-lang="en"][data-stacked="true"] .scene--reporting .content-beat--technology strong{font-size:clamp(1.9rem,8.8vw,4rem)}
+ html[data-lang="de"][data-stacked="true"] .scene--reporting .content-beat--12 strong{font-size:clamp(1.65rem,7.4vw,3.6rem)}
+}
+@media(max-width:360px){.scene08-wordmark{gap:8px}html[data-lang="en"] .story-beat--08 strong{font-size:8vw}}
+@media(max-height:550px) and (min-width:801px){.scene08-wordmark{gap:10px}html[data-lang="en"] .services-title strong{font-size:23px}}
+
+/* P2 typography revision after visual QA: compact two-line German and English
+   compositions for the software and AI chapters. */
+html[data-lang="de"] .scene--reporting .content-beat--12 strong,
+html[data-lang="en"] .scene--reporting .content-beat--12 strong{
+  font-size:clamp(40px,4.25vw,76px);line-height:.98;max-width:42vw;
+}
+html[data-lang="de"] .scene--reporting .content-beat--13 strong,
+html[data-lang="en"] .scene--reporting .content-beat--13 strong{
+  font-size:clamp(40px,4.3vw,78px);line-height:.98;max-width:42vw;
+}
+html[data-lang="de"] .scene--reporting .content-beat--14 strong{
+  font-size:clamp(43px,4.5vw,78px);line-height:.98;max-width:42vw;
+}
+@media(max-width:800px){
+ html[data-lang="de"] .scene--reporting .content-beat--12 strong,
+ html[data-lang="en"] .scene--reporting .content-beat--12 strong,
+ html[data-lang="de"] .scene--reporting .content-beat--13 strong,
+ html[data-lang="en"] .scene--reporting .content-beat--13 strong,
+ html[data-lang="de"] .scene--reporting .content-beat--14 strong{
+   font-size:clamp(1.9rem,8.4vw,4rem);max-width:88vw;line-height:1.02;
+ }
+}
+@media(max-height:550px) and (min-width:801px){
+ html[data-lang="de"] .scene--reporting .content-beat--12 strong,
+ html[data-lang="en"] .scene--reporting .content-beat--12 strong,
+ html[data-lang="de"] .scene--reporting .content-beat--13 strong,
+ html[data-lang="en"] .scene--reporting .content-beat--13 strong,
+ html[data-lang="de"] .scene--reporting .content-beat--14 strong{
+   font-size:clamp(28px,3.3vw,44px);max-width:42vw;
+ }
+}

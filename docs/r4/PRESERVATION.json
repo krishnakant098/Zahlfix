@@ -1,0 +1,66 @@
+{
+  "baseline": "ZahlFix_v6_12_0_Gold_Observatory_R3_Source_20260909.zip",
+  "files": [
+    {
+      "path": "netlify/functions/setup.mjs",
+      "identicalToR3": true,
+      "sha256": "f6c3e19312ffe8cd3ef97461b03f24b4339b068208c4e83d3d3b85ffc42f981f"
+    },
+    {
+      "path": "netlify/functions/_request.mjs",
+      "identicalToR3": true,
+      "sha256": "78f5604b743f13e058308271960d341e89c079ac3bcb13360fb197ad9c6bd2ac"
+    },
+    {
+      "path": "netlify/functions/login.mjs",
+      "identicalToR3": true,
+      "sha256": "e24587cd58ffb2d73fd54aa0c2cd19ffa6492db1a3e3360e37f45bc86a6fcc5c"
+    },
+    {
+      "path": "netlify/functions/_rate.mjs",
+      "identicalToR3": true,
+      "sha256": "9a013519d3acab76ea13628b43519ca6631570ff44f5e4ac7937949331b7d767"
+    },
+    {
+      "path": "netlify/functions/logout.mjs",
+      "identicalToR3": true,
+      "sha256": "ce302d82d596c6b5b4b2dae858beb9d6032d484d05811abafc3cf37c786a646e"
+    },
+    {
+      "path": "netlify/functions/_auth.mjs",
+      "identicalToR3": true,
+      "sha256": "7bd5e8feaea4cc1b8bd07e549dd79fcd6c1c366001655e04ccdf1eb588beec57"
+    },
+    {
+      "path": "netlify/edge-functions/auth-gate.mjs",
+      "identicalToR3": true,
+      "sha256": "0d189927060c9d9961334584353fd9de0edf311324c2cf24c21ac0ad386497a6"
+    },
+    {
+      "path": "netlify.toml",
+      "identicalToR3": true,
+      "sha256": "e4284f894d61a9cabdf6e4233c43c67275a9f1e5de702ff0d3f3e81fbb2bfb71"
+    },
+    {
+      "path": "public/assets/v6/contact.js",
+      "identicalToR3": true,
+      "sha256": "2ea67bae46757a528c4d4a0c01e2355304dc68a68c68c5b408230470daa005a9"
+    },
+    {
+      "path": "public/assets/zahlfix-z-logo.png",
+      "identicalToR3": true,
+      "sha256": "d8701919d12befa3afbbea004f1ae367014f2cfc29fa5501574104f53eccf82d"
+    },
+    {
+      "path": "docs/approved-narrative.de.json",
+      "identicalToR3": true,
+      "sha256": "0c3e191b75bb35e7ba795fd7e938f825d48637755fb767e04dd9db112c70f90f"
+    },
+    {
+      "path": "licenses/TABLER-MIT.txt",
+      "identicalToR3": true,
+      "sha256": "2639ce0d261f800bc5328714806190d1f25055aed9379688dc0a130028fd74dc"
+    }
+  ],
+  "approvedNarrative": "Also checked against the approved 20-beat German transcript by npm run check."
+}

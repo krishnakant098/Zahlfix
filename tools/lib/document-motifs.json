@@ -1,0 +1,8 @@
+{
+  "report": "<g transform=\"translate(-8 -13) scale(3.3)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 17h6M9 13h6\"/></g>",
+  "analytics": "<g transform=\"translate(-8 -13) scale(3.3)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 17v-5M12 17v-1M15 17v-3\"/></g>",
+  "code": "<g transform=\"translate(-8 -13) scale(3.3)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 13l-1 2l1 2M14 13l1 2l-1 2\"/></g>",
+  "data": "<g transform=\"translate(-8 -13) scale(3.3)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M8 11h8v7H8zM8 15h8M11 11v7\"/></g>",
+  "workflow": "<g transform=\"translate(13 21) scale(1.65)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 2h5v4H5zM15 10h5v4h-5zM5 18h5v4H5zM5 10h5v4H5zM10 12h5M7.5 6v4M7.5 14v4\"/></g>",
+  "approval": "<g transform=\"translate(-8 -13) scale(3.3)\" fill=\"none\" stroke=\"#30332F\" stroke-width=\".52\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 15l2 2l4-4\"/></g>"
+}

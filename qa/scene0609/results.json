@@ -1,0 +1,787 @@
+{
+  "mode": "in-memory Chromium harness; no network/CSP/native-device certification",
+  "passed": 111,
+  "failed": 0,
+  "results": [
+    {
+      "test": "desktop: bridge initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: atom handoff overlays without empty interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 06 is strings",
+      "passed": true,
+      "detail": "strings"
+    },
+    {
+      "test": "desktop: three document-notes are visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: three master paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 06 artwork does not obscure copy",
+      "passed": true,
+      "detail": {
+        "text": {
+          "x": 46.078125,
+          "y": 220,
+          "width": 878.390625,
+          "height": 223.75
+        },
+        "art": [
+          {
+            "x": 929.3546752929688,
+            "y": 432.5737609863281,
+            "width": 378.19683837890625,
+            "height": 0
+          },
+          {
+            "x": 929.3546752929688,
+            "y": 483,
+            "width": 378.19683837890625,
+            "height": 0.4256591796875
+          },
+          {
+            "x": 929.3546752929688,
+            "y": 529.1121826171875,
+            "width": 378.19683837890625,
+            "height": 4.3140869140625
+          },
+          {
+            "x": 1019.52490234375,
+            "y": 385.1016540527344,
+            "width": 31.131103515625,
+            "height": 49.32598876953125
+          },
+          {
+            "x": 1102.7281494140625,
+            "y": 435.95355224609375,
+            "width": 31.1312255859375,
+            "height": 49.326019287109375
+          },
+          {
+            "x": 1185.8955078125,
+            "y": 481.6152038574219,
+            "width": 31.3692626953125,
+            "height": 49.475921630859375
+          }
+        ]
+      }
+    },
+    {
+      "test": "desktop: Scene 07 is hybrid orbital system",
+      "passed": true,
+      "detail": "hybrid"
+    },
+    {
+      "test": "desktop: document-notes retired before hybrid hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: three tracked planets visible in hybrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: three companion planets enrich approved atom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 05 source is fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 06 notes are fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 08 is ZahlFix-centred system",
+      "passed": true,
+      "detail": "zahlfix-system"
+    },
+    {
+      "test": "desktop: Scene 07-only notes remain retired in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: source Scene 05 remains isolated in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: brand label visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: Scene 08 reading hold remains fully gold",
+      "passed": true,
+      "detail": "inset(100% 0px 0px)"
+    },
+    {
+      "test": "desktop: Scene 08-09 becomes organising guides",
+      "passed": true,
+      "detail": "guides"
+    },
+    {
+      "test": "desktop: Scene 09 service grid is fully present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: cinematic guide retires by Scene 09 hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: reverse scroll reconstructs exact strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: bridge initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: atom handoff overlays without empty interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 06 is strings",
+      "passed": true,
+      "detail": "strings"
+    },
+    {
+      "test": "phone: three document-notes are visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: three master paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 06 artwork does not obscure copy",
+      "passed": true,
+      "detail": {
+        "text": {
+          "x": 20,
+          "y": 119.9375,
+          "width": 350,
+          "height": 117.15625
+        },
+        "art": [
+          {
+            "x": 96.5999984741211,
+            "y": 479.3525085449219,
+            "width": 196.79998779296875,
+            "height": 0
+          },
+          {
+            "x": 96.5999984741211,
+            "y": 504.3125,
+            "width": 196.79998779296875,
+            "height": 0.17376708984375
+          },
+          {
+            "x": 96.5999984741211,
+            "y": 527.2633666992188,
+            "width": 196.79998779296875,
+            "height": 2.0091552734375
+          },
+          {
+            "x": 139.67906188964844,
+            "y": 444.168212890625,
+            "width": 23.806121826171875,
+            "height": 36.38427734375
+          },
+          {
+            "x": 182.9750518798828,
+            "y": 469.3019714355469,
+            "width": 23.806137084960938,
+            "height": 36.38427734375
+          },
+          {
+            "x": 226.2255401611328,
+            "y": 492.0555419921875,
+            "width": 23.961502075195312,
+            "height": 36.48577880859375
+          }
+        ]
+      }
+    },
+    {
+      "test": "phone: Scene 07 is hybrid orbital system",
+      "passed": true,
+      "detail": "hybrid"
+    },
+    {
+      "test": "phone: document-notes retired before hybrid hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: three tracked planets visible in hybrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: three companion planets enrich approved atom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 05 source is fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 06 notes are fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 08 is ZahlFix-centred system",
+      "passed": true,
+      "detail": "zahlfix-system"
+    },
+    {
+      "test": "phone: Scene 07-only notes remain retired in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: source Scene 05 remains isolated in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: brand label visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: Scene 08 reading hold remains fully gold",
+      "passed": true,
+      "detail": "inset(100% 0px 0px)"
+    },
+    {
+      "test": "phone: Scene 08-09 becomes organising guides",
+      "passed": true,
+      "detail": "guides"
+    },
+    {
+      "test": "phone: Scene 09 service grid is fully present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: cinematic guide retires by Scene 09 hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: reverse scroll reconstructs exact strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: bridge initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: atom handoff overlays without empty interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 06 is strings",
+      "passed": true,
+      "detail": "strings"
+    },
+    {
+      "test": "small: three document-notes are visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: three master paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 06 artwork does not obscure copy",
+      "passed": true,
+      "detail": {
+        "text": {
+          "x": 20,
+          "y": 119.9375,
+          "width": 280,
+          "height": 106.8125
+        },
+        "art": [
+          {
+            "x": 82.0999984741211,
+            "y": 343.669677734375,
+            "width": 155.80001831054688,
+            "height": 0
+          },
+          {
+            "x": 82.0999984741211,
+            "y": 363.4296875,
+            "width": 155.80001831054688,
+            "height": 0.14666748046875
+          },
+          {
+            "x": 82.0999984741211,
+            "y": 381.6652526855469,
+            "width": 155.80001831054688,
+            "height": 1.524444580078125
+          },
+          {
+            "x": 113.69898986816406,
+            "y": 308.4854431152344,
+            "width": 23.8062744140625,
+            "height": 36.134246826171875
+          },
+          {
+            "x": 147.97499084472656,
+            "y": 328.3921203613281,
+            "width": 23.8062744140625,
+            "height": 36.134246826171875
+          },
+          {
+            "x": 182.2004852294922,
+            "y": 346.45294189453125,
+            "width": 23.953643798828125,
+            "height": 36.231170654296875
+          }
+        ]
+      }
+    },
+    {
+      "test": "small: Scene 07 is hybrid orbital system",
+      "passed": true,
+      "detail": "hybrid"
+    },
+    {
+      "test": "small: document-notes retired before hybrid hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: three tracked planets visible in hybrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: three companion planets enrich approved atom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 05 source is fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 06 notes are fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 08 is ZahlFix-centred system",
+      "passed": true,
+      "detail": "zahlfix-system"
+    },
+    {
+      "test": "small: Scene 07-only notes remain retired in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: source Scene 05 remains isolated in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: brand label visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: Scene 08 reading hold remains fully gold",
+      "passed": true,
+      "detail": "inset(100% 0px 0px)"
+    },
+    {
+      "test": "small: Scene 08-09 becomes organising guides",
+      "passed": true,
+      "detail": "guides"
+    },
+    {
+      "test": "small: Scene 09 service grid is fully present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: cinematic guide retires by Scene 09 hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: reverse scroll reconstructs exact strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: bridge initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: atom handoff overlays without empty interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 06 is strings",
+      "passed": true,
+      "detail": "strings"
+    },
+    {
+      "test": "landscape: three document-notes are visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: three master paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 06 artwork does not obscure copy",
+      "passed": true,
+      "detail": {
+        "text": {
+          "x": 20,
+          "y": 112.890625,
+          "width": 514.828125,
+          "height": 128.90625
+        },
+        "art": [
+          {
+            "x": 571.3330688476562,
+            "y": 181.254150390625,
+            "width": 193.0938720703125,
+            "height": 0
+          },
+          {
+            "x": 571.3330688476562,
+            "y": 207,
+            "width": 193.0938720703125,
+            "height": 0.2074737548828125
+          },
+          {
+            "x": 571.3330688476562,
+            "y": 230.47305297851562,
+            "width": 193.0938720703125,
+            "height": 2.272796630859375
+          },
+          {
+            "x": 609.67431640625,
+            "y": 133.78228759765625,
+            "width": 31.13128662109375,
+            "height": 48.41839599609375
+          },
+          {
+            "x": 652.1549682617188,
+            "y": 159.73561096191406,
+            "width": 31.13128662109375,
+            "height": 48.41841125488281
+          },
+          {
+            "x": 694.5604248046875,
+            "y": 182.95025634765625,
+            "width": 31.37255859375,
+            "height": 48.57319641113281
+          }
+        ]
+      }
+    },
+    {
+      "test": "landscape: Scene 07 is hybrid orbital system",
+      "passed": true,
+      "detail": "hybrid"
+    },
+    {
+      "test": "landscape: document-notes retired before hybrid hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: three tracked planets visible in hybrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: three companion planets enrich approved atom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 05 source is fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 06 notes are fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 08 is ZahlFix-centred system",
+      "passed": true,
+      "detail": "zahlfix-system"
+    },
+    {
+      "test": "landscape: Scene 07-only notes remain retired in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: source Scene 05 remains isolated in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: brand label visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Scene 08 reading hold remains fully gold",
+      "passed": true,
+      "detail": "inset(100% 0px 0px)"
+    },
+    {
+      "test": "landscape: Scene 08-09 becomes organising guides",
+      "passed": true,
+      "detail": "guides"
+    },
+    {
+      "test": "landscape: Scene 09 service grid is fully present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: cinematic guide retires by Scene 09 hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: reverse scroll reconstructs exact strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: bridge initialized",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: atom handoff overlays without empty interval",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 06 is strings",
+      "passed": true,
+      "detail": "strings"
+    },
+    {
+      "test": "tablet: three document-notes are visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: three master paths retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 06 artwork does not obscure copy",
+      "passed": true,
+      "detail": {
+        "text": {
+          "x": 20,
+          "y": 119.9375,
+          "width": 728,
+          "height": 230.84375
+        },
+        "art": [
+          {
+            "x": 174.90000915527344,
+            "y": 593.0537719726562,
+            "width": 418.199951171875,
+            "height": 0
+          },
+          {
+            "x": 174.90000915527344,
+            "y": 646.09375,
+            "width": 418.199951171875,
+            "height": 0.37945556640625
+          },
+          {
+            "x": 174.90000915527344,
+            "y": 694.9329833984375,
+            "width": 418.199951171875,
+            "height": 4.20074462890625
+          },
+          {
+            "x": 279.97113037109375,
+            "y": 557.86962890625,
+            "width": 23.805999755859375,
+            "height": 37.734130859375
+          },
+          {
+            "x": 371.9751281738281,
+            "y": 611.2890625,
+            "width": 23.805999755859375,
+            "height": 37.734130859375
+          },
+          {
+            "x": 463.9661865234375,
+            "y": 659.7564697265625,
+            "width": 23.9644775390625,
+            "height": 37.83392333984375
+          }
+        ]
+      }
+    },
+    {
+      "test": "tablet: Scene 07 is hybrid orbital system",
+      "passed": true,
+      "detail": "hybrid"
+    },
+    {
+      "test": "tablet: document-notes retired before hybrid hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: three tracked planets visible in hybrid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: three companion planets enrich approved atom",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 05 source is fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 06 notes are fully retired in Scene 07",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 08 is ZahlFix-centred system",
+      "passed": true,
+      "detail": "zahlfix-system"
+    },
+    {
+      "test": "tablet: Scene 07-only notes remain retired in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: source Scene 05 remains isolated in Scene 08",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: brand label visible",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Scene 08 reading hold remains fully gold",
+      "passed": true,
+      "detail": "inset(100% 0px 0px)"
+    },
+    {
+      "test": "tablet: Scene 08-09 becomes organising guides",
+      "passed": true,
+      "detail": "guides"
+    },
+    {
+      "test": "tablet: Scene 09 service grid is fully present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: cinematic guide retires by Scene 09 hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: no horizontal page overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: reverse scroll reconstructs exact strings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no uncaught browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

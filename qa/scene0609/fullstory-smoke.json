@@ -1,0 +1,562 @@
+{
+  "mode": "in-memory Chromium harness",
+  "passed": 111,
+  "failed": 0,
+  "results": [
+    {
+      "test": "small: scene 01 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 02 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 03 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 04 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 05 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 06 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 07 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 08 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 09 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 10 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 11 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 12 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 13 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 14 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 15 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 16 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 17 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 18 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 19 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: scene 20 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: ten services retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "small: no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 01 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 02 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 03 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 04 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 05 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 06 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 07 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 08 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 09 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 10 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 11 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 12 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 13 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 14 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 15 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 16 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 17 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 18 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 19 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: scene 20 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: ten services retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "phone: no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 01 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 02 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 03 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 04 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 05 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 06 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 07 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 08 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 09 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 10 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 11 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 12 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 13 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 14 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 15 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 16 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 17 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 18 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 19 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 20 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: ten services retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 01 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 02 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 03 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 04 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 05 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 06 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 07 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 08 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 09 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 10 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 11 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 12 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 13 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 14 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 15 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 16 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 17 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 18 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 19 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 20 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: ten services retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 01 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 02 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 03 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 04 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 05 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 06 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 07 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 08 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 09 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 10 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 11 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 12 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 13 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 14 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 15 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 16 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 17 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 18 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 19 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: scene 20 readable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: ten services retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "desktop: no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no uncaught browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+[
+  {
+    "file": "public/assets/scene-01-05/document-report.svg",
+    "bytes": 12782,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-report-compact.svg",
+    "bytes": 12564,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-analytics.svg",
+    "bytes": 12800,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-analytics-compact.svg",
+    "bytes": 12582,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-code.svg",
+    "bytes": 12794,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-code-compact.svg",
+    "bytes": 12576,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-data.svg",
+    "bytes": 12791,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-data-compact.svg",
+    "bytes": 12573,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-workflow.svg",
+    "bytes": 12845,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-workflow-compact.svg",
+    "bytes": 12627,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-approval.svg",
+    "bytes": 12785,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-approval-compact.svg",
+    "bytes": 12567,
+    "source": "Tabler interior motif + ZahlFix R4 plate",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-gold.svg",
+    "bytes": 57159,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 2
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-ink.svg",
+    "bytes": 57157,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 2
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-compact.svg",
+    "bytes": 31308,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 2
+  },
+  {
+    "file": "public/assets/scene-01-05/z-transition-mask.svg",
+    "bytes": 11599,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 2
+  },
+  {
+    "file": "public/assets/scene-01-05/capture-aperture.svg",
+    "bytes": 12451,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/orbital-observatory.svg",
+    "bytes": 96772,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 82
+  },
+  {
+    "file": "public/assets/scene-01-05/engraved-system.svg",
+    "bytes": 77029,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 60
+  },
+  {
+    "file": "public/assets/scene-01-05/process-instrument.svg",
+    "bytes": 75879,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 60
+  },
+  {
+    "file": "public/assets/scene-01-05/atom-observatory.svg",
+    "bytes": 77792,
+    "source": "ZahlFix geometry and material artwork with user-supplied ribbon image",
+    "material": "layered SVG; ribbon core embeds an optimized user-supplied bitmap",
+    "references": 60
+  }
+]

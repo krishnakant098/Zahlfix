@@ -1,0 +1,523 @@
+
+> zahlfix-v6-netlify-production@6.14.0-r5.0 check
+> npm run check:legacy && node tools/source-check.mjs && npm run test:unit
+
+
+> zahlfix-v6-netlify-production@6.14.0-r5.0 check:legacy
+> node tools/predeploy-check.mjs && node tools/german-language-check.mjs && node tools/login-visual-check.mjs
+
+PASS public/index.html
+PASS public/assets/v6/style.css
+PASS public/assets/v6/main.js
+PASS public/assets/v6/webgl-world.js
+PASS public/assets/login.css
+PASS public/impressum.html
+PASS public/datenschutz.html
+PASS public/agb.html
+PASS netlify/edge-functions/auth-gate.mjs
+PASS netlify/functions/login.mjs
+PASS netlify/functions/setup.mjs
+PASS netlify/functions/logout.mjs
+PASS netlify/functions/_auth.mjs
+PASS netlify.toml
+PASS local asset /assets/favicon.svg
+PASS local asset /assets/v6/style.css
+PASS local asset /assets/v6/components.css
+PASS local asset /assets/v6/scene0609.css
+PASS local asset /assets/v6/phase1.css
+PASS local asset /assets/v6/mobile-r4.css
+PASS local asset /assets/v6/fallback.css
+PASS local asset /assets/zahlfix-z-logo.png
+PASS local asset /assets/brand/zahlfix-ribbon-384.webp
+PASS local asset /assets/brand/zahlfix-ribbon-192.webp
+PASS local asset /assets/brand/zahlfix-ribbon-96.webp
+PASS local asset /assets/v6/diagrams/service-01.svg
+PASS local asset /assets/v6/diagrams/service-02.svg
+PASS local asset /assets/v6/diagrams/service-03.svg
+PASS local asset /assets/v6/diagrams/service-04.svg
+PASS local asset /assets/v6/diagrams/service-05.svg
+PASS local asset /assets/v6/diagrams/service-06.svg
+PASS local asset /assets/v6/diagrams/service-07.svg
+PASS local asset /assets/v6/diagrams/service-08.svg
+PASS local asset /assets/v6/diagrams/service-09.svg
+PASS local asset /assets/v6/diagrams/service-10.svg
+PASS local asset /datenschutz.html
+PASS local asset /impressum.html
+PASS local asset /agb.html
+PASS local asset /assets/v6/boot.js
+PASS edge gate covers the site
+PASS login stylesheet is public
+PASS __Host session cookie
+PASS scrypt password hashing
+PASS persistent Netlify Blobs config
+PASS one-time setup key requirement
+PASS normal session is not a persistent 12h cookie
+
+ZahlFix Netlify predeploy checks passed.
+PASS German QA: fehlenden Visionen
+PASS German QA: fehlender</span>
+PASS German QA: Herausforderung-Formular
+PASS German QA: Browser-Session-Cookie
+PASS German QA: Remember me
+PASS German QA: IT CONSULTING
+PASS German QA: DIGITALISATION
+PASS German QA: OPTIMISATION
+PASS German QA: AI APPLICATIONS
+PASS German QA: AI AGENTS
+PASS German QA: IMPLEMENTATION SYSTEM
+PASS German QA: BUILD MODE
+PASS German QA: CUSTOM SOFTWARE
+PASS German QA: INTELLIGENT LAYER
+PASS German QA: AI WHERE VALUE IS REAL
+PASS German QA: POST-LAUNCH / SYSTEM HEALTH
+PASS German QA: ACTIVE SUPPORT
+PASS German QA: FIRST SETUP
+PASS German QA: SECURE ACCESS
+PASS German QA: SERVER-SIDE ACCESS
+PASS German QA: HTTPONLY SESSION
+PASS German QA: angemessen geschützt
+PASS required German copy: Fortschritt scheitert
+PASS required German copy: selten an mangelnder
+PASS required German copy: Sondern für Ihr Unternehmen.
+PASS required German copy: GESCHÄFTLICHE E-MAIL-ADRESSE*
+PASS required German copy: KÜNSTLICHE INTELLIGENZ
+PASS required German copy: TECHNISCHER SUPPORT
+PASS required German copy: ZAHLFIX / UMSETZUNGSSYSTEM
+
+ZahlFix German-language QA checks passed.
+PASS domain lockup is present
+PASS German private-access label is present
+PASS German password prompt is present
+PASS security statement is present
+PASS access-request contact path is present
+PASS LinkedIn contact path is present
+PASS LinkedIn URL can be configured without code changes
+PASS external LinkedIn link is safely opened
+PASS password autocomplete remains correct
+PASS login POST flow remains unchanged
+PASS safe destination field remains present
+PASS architectural orbit system is present
+PASS secondary contact composition is styled
+PASS architectural frame system is present
+PASS short desktop viewport composition is tuned
+PASS reduced-motion treatment is present
+PASS logo remains available before authentication
+PASS no unsupported invitation-code language
+
+ZahlFix login visual checks passed.
+PASS public/assets/v6/scene-registry.js
+PASS public/assets/v6/boot.js
+PASS public/assets/v6/contact.js
+PASS public/assets/v6/components.css
+PASS public/assets/v6/fallback.css
+PASS netlify/functions/_rate.mjs
+PASS netlify/functions/_request.mjs
+PASS tools/rotate-password.mjs
+PASS local reference: /assets/favicon.svg
+PASS local reference: /assets/v6/style.css
+PASS local reference: /assets/v6/components.css
+PASS local reference: /assets/v6/scene0609.css
+PASS local reference: /assets/v6/phase1.css
+PASS local reference: /assets/v6/mobile-r4.css
+PASS local reference: /assets/v6/fallback.css
+PASS local reference: /assets/zahlfix-z-logo.png
+PASS local reference: /assets/brand/zahlfix-ribbon-384.webp
+PASS local reference: /assets/brand/zahlfix-ribbon-384.webp
+PASS local reference: /assets/brand/zahlfix-ribbon-192.webp
+PASS local reference: /assets/brand/zahlfix-ribbon-96.webp
+PASS local reference: /assets/v6/diagrams/service-01.svg
+PASS local reference: /assets/v6/diagrams/service-01.svg
+PASS local reference: /assets/v6/diagrams/service-02.svg
+PASS local reference: /assets/v6/diagrams/service-02.svg
+PASS local reference: /assets/v6/diagrams/service-03.svg
+PASS local reference: /assets/v6/diagrams/service-03.svg
+PASS local reference: /assets/v6/diagrams/service-04.svg
+PASS local reference: /assets/v6/diagrams/service-04.svg
+PASS local reference: /assets/v6/diagrams/service-05.svg
+PASS local reference: /assets/v6/diagrams/service-05.svg
+PASS local reference: /assets/v6/diagrams/service-06.svg
+PASS local reference: /assets/v6/diagrams/service-06.svg
+PASS local reference: /assets/v6/diagrams/service-07.svg
+PASS local reference: /assets/v6/diagrams/service-07.svg
+PASS local reference: /assets/v6/diagrams/service-08.svg
+PASS local reference: /assets/v6/diagrams/service-08.svg
+PASS local reference: /assets/v6/diagrams/service-09.svg
+PASS local reference: /assets/v6/diagrams/service-09.svg
+PASS local reference: /assets/v6/diagrams/service-10.svg
+PASS local reference: /assets/v6/diagrams/service-10.svg
+PASS local reference: /datenschutz.html
+PASS local reference: /assets/brand/zahlfix-ribbon-96.webp
+PASS local reference: /impressum.html
+PASS local reference: /datenschutz.html
+PASS local reference: /agb.html
+PASS local reference: /assets/v6/boot.js
+PASS semantic destination: contact
+PASS semantic destination: opening
+PASS semantic destination: challenge
+PASS semantic destination: zahlfix
+PASS semantic destination: services
+PASS semantic destination: workflow
+PASS semantic destination: tailored
+PASS semantic destination: about
+PASS semantic destination: contact
+PASS seven physical containers retained
+PASS ten interactive service controls
+PASS no hard-coded numeric HTML navigation
+PASS all twenty approved German narrative beats unchanged
+PASS JavaScript syntax: public/assets/v6/boot.js
+PASS JavaScript syntax: public/assets/v6/contact.js
+PASS JavaScript syntax: public/assets/v6/main.js
+PASS JavaScript syntax: public/assets/v6/mobile-layout.js
+PASS JavaScript syntax: public/assets/v6/phase1-artwork.js
+PASS JavaScript syntax: public/assets/v6/phase1-brand.js
+PASS JavaScript syntax: public/assets/v6/phase1-geometry.js
+PASS JavaScript syntax: public/assets/v6/phase1-materials.js
+PASS JavaScript syntax: public/assets/v6/phase1-timeline.js
+PASS JavaScript syntax: public/assets/v6/phase1-visuals.js
+PASS JavaScript syntax: public/assets/v6/scene-registry.js
+PASS JavaScript syntax: public/assets/v6/scene0609-geometry.js
+PASS JavaScript syntax: public/assets/v6/scene0609-visuals.js
+PASS JavaScript syntax: public/assets/v6/webgl-world.js
+PASS JavaScript syntax: netlify/edge-functions/auth-gate.mjs
+PASS JavaScript syntax: netlify/functions/_auth.mjs
+PASS JavaScript syntax: netlify/functions/_rate.mjs
+PASS JavaScript syntax: netlify/functions/_request.mjs
+PASS JavaScript syntax: netlify/functions/login.mjs
+PASS JavaScript syntax: netlify/functions/logout.mjs
+PASS JavaScript syntax: netlify/functions/setup.mjs
+PASS JavaScript syntax: tools/build-phase1-assets.mjs
+PASS JavaScript syntax: tools/check-phase1-capture.mjs
+PASS JavaScript syntax: tools/check-phase1-layouts.mjs
+PASS JavaScript syntax: tools/german-language-check.mjs
+PASS JavaScript syntax: tools/login-visual-check.mjs
+PASS JavaScript syntax: tools/predeploy-check.mjs
+PASS JavaScript syntax: tools/rotate-password.mjs
+PASS JavaScript syntax: tools/serve.mjs
+PASS JavaScript syntax: tools/source-check.mjs
+Source integrity/content checks passed. These are not live-deployment tests.
+
+> zahlfix-v6-netlify-production@6.14.0-r5.0 test:unit
+> node --import ./tests/unit/register.mjs --test tests/unit/*.test.mjs
+
+TAP version 13
+# Subtest: new password policy boundaries and legacy verification compatibility
+ok 1 - new password policy boundaries and legacy verification compatibility
+  ---
+  duration_ms: 737.197084
+  type: 'test'
+  ...
+# Subtest: first setup is atomic and never overwrites an existing config
+ok 2 - first setup is atomic and never overwrites an existing config
+  ---
+  duration_ms: 222.702763
+  type: 'test'
+  ...
+# Subtest: concurrent requests cannot reserve more than six attempts
+ok 3 - concurrent requests cannot reserve more than six attempts
+  ---
+  duration_ms: 18.478415
+  type: 'test'
+  ...
+# Subtest: successful attempt does not clear another concurrent failure
+ok 4 - successful attempt does not clear another concurrent failure
+  ---
+  duration_ms: 6.26999
+  type: 'test'
+  ...
+# Subtest: cookie is session scoped and redirects remain same-origin
+ok 5 - cookie is session scoped and redirects remain same-origin
+  ---
+  duration_ms: 0.457448
+  type: 'test'
+  ...
+# Subtest: request guard rejects cross-origin, wrong media type, and oversized bodies
+ok 6 - request guard rejects cross-origin, wrong media type, and oversized bodies
+  ---
+  duration_ms: 35.563546
+  type: 'test'
+  ...
+# Subtest: actual login handler rejects wrong password and accepts the configured password
+ok 7 - actual login handler rejects wrong password and accepts the configured password
+  ---
+  duration_ms: 329.186172
+  type: 'test'
+  ...
+# Subtest: setup policy is enforced server-side and existing setup closes
+ok 8 - setup policy is enforced server-side and existing setup closes
+  ---
+  duration_ms: 99.819315
+  type: 'test'
+  ...
+# Subtest: edge gate validates sessions, protects legal pages, and revokes rotated sessions
+ok 9 - edge gate validates sessions, protects legal pages, and revokes rotated sessions
+  ---
+  duration_ms: 179.478603
+  type: 'test'
+  ...
+# Subtest: storage outage fails closed
+ok 10 - storage outage fails closed
+  ---
+  duration_ms: 0.706738
+  type: 'test'
+  ...
+# Subtest: edge rejects expired and tampered signed tokens
+ok 11 - edge rejects expired and tampered signed tokens
+  ---
+  duration_ms: 86.020207
+  type: 'test'
+  ...
+# Subtest: one profile authority handles phones, portrait tablets and short landscape
+ok 12 - one profile authority handles phones, portrait tablets and short landscape
+  ---
+  duration_ms: 0.940538
+  type: 'test'
+  ...
+# Subtest: mobile scene scroll map is strictly monotonic with all twenty entrances
+ok 13 - mobile scene scroll map is strictly monotonic with all twenty entrances
+  ---
+  duration_ms: 0.45456
+  type: 'test'
+  ...
+# Subtest: scene/local progress survives scroll-map remapping and orientation
+ok 14 - scene/local progress survives scroll-map remapping and orientation
+  ---
+  duration_ms: 28.365779
+  type: 'test'
+  ...
+# Subtest: all scene navigation targets land in their intended authored progress
+ok 15 - all scene navigation targets land in their intended authored progress
+  ---
+  duration_ms: 0.513204
+  type: 'test'
+  ...
+# Subtest: desktop retains a linear native-scroll map
+ok 16 - desktop retains a linear native-scroll map
+  ---
+  duration_ms: 0.255853
+  type: 'test'
+  ...
+# Subtest: ribbon has four bounded local exports and a registered silhouette inradius
+ok 17 - ribbon has four bounded local exports and a registered silhouette inradius
+  ---
+  duration_ms: 1.624965
+  type: 'test'
+  ...
+# Subtest: contact reuses original form identity; no clones or duplicated field IDs
+ok 18 - contact reuses original form identity; no clones or duplicated field IDs
+  ---
+  duration_ms: 1.518021
+  type: 'test'
+  ...
+# Subtest: material definitions are namespaced and do not install scripts or filters
+ok 19 - material definitions are namespaced and do not install scripts or filters
+  ---
+  duration_ms: 2.684716
+  type: 'test'
+  ...
+# Subtest: ribbon surface and monochrome mask share one canonical viewbox
+ok 20 - ribbon surface and monochrome mask share one canonical viewbox
+  ---
+  duration_ms: 0.271426
+  type: 'test'
+  ...
+# Subtest: compact ribbon uses the smaller optical export without changing its registered bounds
+ok 21 - compact ribbon uses the smaller optical export without changing its registered bounds
+  ---
+  duration_ms: 0.157316
+  type: 'test'
+  ...
+# Subtest: six document motifs retain their original interior paths inside a material plate
+ok 22 - six document motifs retain their original interior paths inside a material plate
+  ---
+  duration_ms: 0.223091
+  type: 'test'
+  ...
+# Subtest: functional track cardinality remains three; material subdivision is not extra geometry
+ok 23 - functional track cardinality remains three; material subdivision is not extra geometry
+  ---
+  duration_ms: 9.985835
+  type: 'test'
+  ...
+# Subtest: atmospheric detail is deterministic and has no runtime motion dependencies
+ok 24 - atmospheric detail is deterministic and has no runtime motion dependencies
+  ---
+  duration_ms: 1.422637
+  type: 'test'
+  ...
+# Subtest: generated stage embeds original resource identity without runtime remote assets
+ok 25 - generated stage embeds original resource identity without runtime remote assets
+  ---
+  duration_ms: 1.385198
+  type: 'test'
+  ...
+# Subtest: R2 boundary and readable holds do not move scene 06
+ok 26 - R2 boundary and readable holds do not move scene 06
+  ---
+  duration_ms: 2.206139
+  type: 'test'
+  ...
+# Subtest: nine stable identities, three identical speeds per orbit, slower outer periods
+ok 27 - nine stable identities, three identical speeds per orbit, slower outer periods
+  ---
+  duration_ms: 37.86529
+  type: 'test'
+  ...
+# Subtest: orbit derivatives match finite differences
+ok 28 - orbit derivatives match finite differences
+  ---
+  duration_ms: 0.434951
+  type: 'test'
+  ...
+# Subtest: drawn cubic orbital paths and record anchors agree to subpixel precision
+ok 29 - drawn cubic orbital paths and record anchors agree to subpixel precision
+  ---
+  duration_ms: 104.53847
+  type: 'test'
+  ...
+# Subtest: one aperture crossing at a time and at most two travellers
+ok 30 - one aperture crossing at a time and at most two travellers
+  ---
+  duration_ms: 37.935206
+  type: 'test'
+  ...
+# Subtest: capture preserves incoming position, velocity and acceleration
+ok 31 - capture preserves incoming position, velocity and acceleration
+  ---
+  duration_ms: 0.414894
+  type: 'test'
+  ...
+# Subtest: capture path start does not chase wall clock while paused
+ok 32 - capture path start does not chase wall clock while paused
+  ---
+  duration_ms: 0.335971
+  type: 'test'
+  ...
+# Subtest: all nine original documents dock into a unique 3x3 matrix by scene 03 target
+ok 33 - all nine original documents dock into a unique 3x3 matrix by scene 03 target
+  ---
+  duration_ms: 0.285153
+  type: 'test'
+  ...
+# Subtest: 60Hz and 120Hz clocks produce equivalent elapsed motion
+ok 34 - 60Hz and 120Hz clocks produce equivalent elapsed motion
+  ---
+  duration_ms: 2.724529
+  type: 'test'
+  ...
+# Subtest: scroll locks time, reverse scrubbing reproduces positions, resume is continuous
+ok 35 - scroll locks time, reverse scrubbing reproduces positions, resume is continuous
+  ---
+  duration_ms: 0.871029
+  type: 'test'
+  ...
+# Subtest: pure state reconstructs forward and reverse poses without accumulated error
+ok 36 - pure state reconstructs forward and reverse poses without accumulated error
+  ---
+  duration_ms: 19.327895
+  type: 'test'
+  ...
+# Subtest: ring/line/atom use consistent open cubic topology and finite points
+ok 37 - ring/line/atom use consistent open cubic topology and finite points
+  ---
+  duration_ms: 73.83369
+  type: 'test'
+  ...
+# Subtest: rings are closed-looking open paths; lanes have separated endpoints
+ok 38 - rings are closed-looking open paths; lanes have separated endpoints
+  ---
+  duration_ms: 0.551788
+  type: 'test'
+  ...
+# Subtest: curvature closure has no zero derivative or pinched path
+ok 39 - curvature closure has no zero derivative or pinched path
+  ---
+  duration_ms: 5.915247
+  type: 'test'
+  ...
+# Subtest: arc-length nodes lie on their exact master cubics through both transitions
+ok 40 - arc-length nodes lie on their exact master cubics through both transitions
+  ---
+  duration_ms: 19.952872
+  type: 'test'
+  ...
+# Subtest: Z grows from the same solid anchor and conservatively covers all viewport corners
+ok 41 - Z grows from the same solid anchor and conservatively covers all viewport corners
+  ---
+  duration_ms: 0.679967
+  type: 'test'
+  ...
+# Subtest: initial markup contains a complete inline scene with unique IDs and local symbols
+ok 42 - initial markup contains a complete inline scene with unique IDs and local symbols
+  ---
+  duration_ms: 1.626422
+  type: 'test'
+  ...
+# Subtest: twenty ordered, unique, readable story destinations
+ok 43 - twenty ordered, unique, readable story destinations
+  ---
+  duration_ms: 1.076865
+  type: 'test'
+  ...
+# Subtest: services release before workflow becomes visible on all viewports
+ok 44 - services release before workflow becomes visible on all viewports
+  ---
+  duration_ms: 0.109597
+  type: 'test'
+  ...
+# Subtest: continue walks through every hold, including the last scene
+ok 45 - continue walks through every hold, including the last scene
+  ---
+  duration_ms: 0.262119
+  type: 'test'
+  ...
+# Subtest: all ten service focus targets remain in the live plate
+ok 46 - all ten service focus targets remain in the live plate
+  ---
+  duration_ms: 0.182969
+  type: 'test'
+  ...
+# Subtest: enquiry encoding preserves text and cannot inject mailto headers
+ok 47 - enquiry encoding preserves text and cannot inject mailto headers
+  ---
+  duration_ms: 0.965087
+  type: 'test'
+  ...
+# Subtest: Scenes 05-09 keep one 32-cubic topology on all three tracked paths
+ok 48 - Scenes 05-09 keep one 32-cubic topology on all three tracked paths
+  ---
+  duration_ms: 9.049457
+  type: 'test'
+  ...
+# Subtest: Scene 06 strings keep fixed endpoints while local recoil deforms the path
+ok 49 - Scene 06 strings keep fixed endpoints while local recoil deforms the path
+  ---
+  duration_ms: 2.388138
+  type: 'test'
+  ...
+# Subtest: damped note recoil is bounded, deterministic and returns to rest
+ok 50 - damped note recoil is bounded, deterministic and returns to rest
+  ---
+  duration_ms: 0.437007
+  type: 'test'
+  ...
+# Subtest: hybrid system remains a true three-plane orbital system
+ok 51 - hybrid system remains a true three-plane orbital system
+  ---
+  duration_ms: 0.860998
+  type: 'test'
+  ...
+# Subtest: service entrance uses three organisers without pretending to be ten services
+ok 52 - service entrance uses three organisers without pretending to be ten services
+  ---
+  duration_ms: 0.603302
+  type: 'test'
+  ...
+1..52
+# tests 52
+# suites 0
+# pass 52
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1938.582432

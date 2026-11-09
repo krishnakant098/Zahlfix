@@ -1,0 +1,14 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+  edge_functions = "netlify/edge-functions"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Canonical host: zahlfix.com. Once custom domains are attached, Netlify will
+# automatically make the primary-domain redirect choice in Domain management.

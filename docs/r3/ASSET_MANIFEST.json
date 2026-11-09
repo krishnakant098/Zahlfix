@@ -1,0 +1,149 @@
+[
+  {
+    "file": "public/assets/scene-01-05/document-report.svg",
+    "bytes": 11132,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-report-compact.svg",
+    "bytes": 10914,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-analytics.svg",
+    "bytes": 11150,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-analytics-compact.svg",
+    "bytes": 10932,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-code.svg",
+    "bytes": 11144,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-code-compact.svg",
+    "bytes": 10926,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-data.svg",
+    "bytes": 11141,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-data-compact.svg",
+    "bytes": 10923,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-workflow.svg",
+    "bytes": 11195,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-workflow-compact.svg",
+    "bytes": 10977,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-approval.svg",
+    "bytes": 11135,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/document-approval-compact.svg",
+    "bytes": 10917,
+    "source": "Tabler interior motif + ZahlFix R3 plate",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-gold.svg",
+    "bytes": 11879,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 10
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-ink.svg",
+    "bytes": 11857,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 9
+  },
+  {
+    "file": "public/assets/scene-01-05/z-observatory-compact.svg",
+    "bytes": 10483,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 8
+  },
+  {
+    "file": "public/assets/scene-01-05/z-transition-mask.svg",
+    "bytes": 9949,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 2
+  },
+  {
+    "file": "public/assets/scene-01-05/capture-aperture.svg",
+    "bytes": 10801,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 5
+  },
+  {
+    "file": "public/assets/scene-01-05/orbital-observatory.svg",
+    "bytes": 51492,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 90
+  },
+  {
+    "file": "public/assets/scene-01-05/engraved-system.svg",
+    "bytes": 56237,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 66
+  },
+  {
+    "file": "public/assets/scene-01-05/process-instrument.svg",
+    "bytes": 55087,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 66
+  },
+  {
+    "file": "public/assets/scene-01-05/atom-observatory.svg",
+    "bytes": 57000,
+    "source": "ZahlFix authored vector artwork",
+    "material": "gradient vector, no bitmap",
+    "references": 66
+  }
+]

@@ -1,0 +1,150 @@
+PASS landscape: complete opening at scroll zero
+PASS landscape: ribbon surface loaded locally
+PASS landscape: nine records and three precise tracks
+PASS landscape: primary touch controls at least 44px high
+PASS landscape: menu target is at least 44px wide
+PASS landscape: pointer Continue reaches readable consulting state
+PASS landscape: focus follows scene navigation
+PASS landscape: keyboard Continue reaches implementation state
+PASS landscape: scene 01 readable hold
+PASS landscape: scene 01 text stays within viewport
+PASS landscape: scene 02 readable hold
+PASS landscape: scene 02 text stays within viewport
+PASS landscape: scene 03 readable hold
+PASS landscape: scene 03 text stays within viewport
+PASS landscape: scene 04 readable hold
+PASS landscape: scene 04 text stays within viewport
+PASS landscape: scene 05 readable hold
+PASS landscape: scene 05 text stays within viewport
+PASS landscape: scene 06 readable hold
+PASS landscape: scene 06 text stays within viewport
+PASS landscape: scene 07 readable hold
+PASS landscape: scene 07 text stays within viewport
+PASS landscape: scene 08 readable hold
+PASS landscape: scene 08 text stays within viewport
+PASS landscape: scene 09 readable hold
+PASS landscape: scene 09 text stays within viewport
+PASS landscape: scene 10 readable hold
+PASS landscape: scene 10 text stays within viewport
+PASS landscape: scene 11 readable hold
+PASS landscape: scene 11 text stays within viewport
+PASS landscape: scene 12 readable hold
+PASS landscape: scene 12 text stays within viewport
+PASS landscape: scene 13 readable hold
+PASS landscape: scene 13 text stays within viewport
+PASS landscape: scene 14 readable hold
+PASS landscape: scene 14 text stays within viewport
+PASS landscape: scene 15 readable hold
+PASS landscape: scene 15 text stays within viewport
+PASS landscape: scene 16 readable hold
+PASS landscape: scene 16 text stays within viewport
+PASS landscape: scene 17 readable hold
+PASS landscape: scene 17 text stays within viewport
+PASS landscape: scene 18 readable hold
+PASS landscape: scene 18 text stays within viewport
+PASS landscape: scene 19 readable hold
+PASS landscape: scene 19 text stays within viewport
+PASS landscape: scene 20 readable hold
+PASS landscape: capture trajectory stays stable on scroll hold
+PASS landscape: ribbon takeover origin remains within one CSS pixel
+PASS landscape: actual ribbon silhouette covers viewport before handoff
+PASS landscape: ring nodes track exact drawn curves
+PASS landscape: ring geometry stays clear of viewport edges
+PASS landscape: unroll nodes track exact drawn curves
+PASS landscape: unroll geometry stays clear of viewport edges
+PASS landscape: rail nodes track exact drawn curves
+PASS landscape: rail geometry stays clear of viewport edges
+PASS landscape: curl nodes track exact drawn curves
+PASS landscape: curl geometry stays clear of viewport edges
+PASS landscape: atom nodes track exact drawn curves
+PASS landscape: atom geometry stays clear of viewport edges
+PASS landscape: service 01 reachable and selectable
+PASS landscape: service 08 reachable and selectable
+PASS landscape: service 10 reachable and selectable
+PASS landscape: orientation preserves scene progress
+PASS landscape: contact CTA lands on visible contact title
+PASS landscape: header and menu remain reachable in native contact
+PASS landscape: contact belongs to native page flow
+PASS landscape: form text survives orientation
+PASS landscape: enquiry action reachable without clipping
+PASS landscape: copy action gives feedback without sending mail
+PASS landscape: legal links reachable
+PASS landscape: menu internally scrolls to last destination
+PASS landscape: Escape restores focus to menu trigger
+PASS landscape: reverse/fast seek restores intended reading state
+PASS landscape: no horizontal document overflow
+PASS desktop: complete opening at scroll zero
+PASS desktop: ribbon surface loaded locally
+PASS desktop: nine records and three precise tracks
+PASS desktop: primary touch controls at least 44px high
+PASS desktop: pointer Continue reaches readable consulting state
+PASS desktop: focus follows scene navigation
+PASS desktop: keyboard Continue reaches implementation state
+PASS desktop: scene 01 readable hold
+PASS desktop: scene 01 text stays within viewport
+PASS desktop: scene 02 readable hold
+PASS desktop: scene 02 text stays within viewport
+PASS desktop: scene 03 readable hold
+PASS desktop: scene 03 text stays within viewport
+PASS desktop: scene 04 readable hold
+PASS desktop: scene 04 text stays within viewport
+PASS desktop: scene 05 readable hold
+PASS desktop: scene 05 text stays within viewport
+PASS desktop: scene 06 readable hold
+PASS desktop: scene 06 text stays within viewport
+PASS desktop: scene 07 readable hold
+PASS desktop: scene 07 text stays within viewport
+PASS desktop: scene 08 readable hold
+PASS desktop: scene 08 text stays within viewport
+PASS desktop: scene 09 readable hold
+PASS desktop: scene 09 text stays within viewport
+PASS desktop: scene 10 readable hold
+PASS desktop: scene 10 text stays within viewport
+PASS desktop: scene 11 readable hold
+PASS desktop: scene 11 text stays within viewport
+PASS desktop: scene 12 readable hold
+PASS desktop: scene 12 text stays within viewport
+PASS desktop: scene 13 readable hold
+PASS desktop: scene 13 text stays within viewport
+PASS desktop: scene 14 readable hold
+PASS desktop: scene 14 text stays within viewport
+PASS desktop: scene 15 readable hold
+PASS desktop: scene 15 text stays within viewport
+PASS desktop: scene 16 readable hold
+PASS desktop: scene 16 text stays within viewport
+PASS desktop: scene 17 readable hold
+PASS desktop: scene 17 text stays within viewport
+PASS desktop: scene 18 readable hold
+PASS desktop: scene 18 text stays within viewport
+PASS desktop: scene 19 readable hold
+PASS desktop: scene 19 text stays within viewport
+PASS desktop: scene 20 readable hold
+PASS desktop: capture trajectory stays stable on scroll hold
+PASS desktop: ribbon takeover origin remains within one CSS pixel
+PASS desktop: actual ribbon silhouette covers viewport before handoff
+PASS desktop: ring nodes track exact drawn curves
+PASS desktop: ring geometry stays clear of viewport edges
+PASS desktop: unroll nodes track exact drawn curves
+PASS desktop: unroll geometry stays clear of viewport edges
+PASS desktop: rail nodes track exact drawn curves
+PASS desktop: rail geometry stays clear of viewport edges
+PASS desktop: curl nodes track exact drawn curves
+PASS desktop: curl geometry stays clear of viewport edges
+PASS desktop: atom nodes track exact drawn curves
+PASS desktop: atom geometry stays clear of viewport edges
+PASS desktop: service 01 reachable and selectable
+PASS desktop: service 08 reachable and selectable
+PASS desktop: service 10 reachable and selectable
+PASS desktop: orientation preserves scene progress
+PASS desktop: contact CTA lands on visible contact title
+PASS desktop: header and menu remain reachable in native contact
+PASS desktop: form text survives orientation
+PASS desktop: enquiry action reachable without clipping
+PASS desktop: copy action gives feedback without sending mail
+PASS desktop: legal links reachable
+PASS desktop: menu internally scrolls to last destination
+PASS desktop: Escape restores focus to menu trigger
+PASS desktop: reverse/fast seek restores intended reading state
+PASS desktop: no horizontal document overflow
+PASS no uncaught browser errors
+{"passed": 149, "failed": 0}

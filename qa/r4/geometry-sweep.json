@@ -1,0 +1,11 @@
+{
+  "mode": "10-minute numerical orbit sweep, 40Hz, actual measured browser layouts",
+  "layouts": 9,
+  "frames": 216009,
+  "posesChecked": 1944081,
+  "collisions": [],
+  "clips": [],
+  "textHits": [],
+  "systemClips": [],
+  "passed": true
+}

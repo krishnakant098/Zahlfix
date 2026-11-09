@@ -1,0 +1,22 @@
+/* Scenes 06-09 cinematic bridge. The legacy challenge artwork remains in the DOM
+   as a fallback/textual-era artifact but is not part of the cinematic composition. */
+html.is-cinematic.p2-ready .challenge-visual,
+html.is-cinematic.p2-ready .compression-grid,
+html.is-cinematic.p2-ready .friction-proof { opacity:0!important; visibility:hidden!important; pointer-events:none!important; }
+
+.p2-brand-label { font-family:var(--mono, ui-monospace, monospace); fill:#11110f; text-anchor:middle; letter-spacing:.12em; }
+.p2-brand-label .p2-brand-main { font-size:17px; font-weight:800; letter-spacing:.08em; }
+.p2-brand-label .p2-brand-sub { font-size:5.5px; font-weight:600; opacity:.64; letter-spacing:.18em; }
+.p2-note { transform-box:fill-box; transform-origin:center; }
+.p2-note-pin { fill:#171813; stroke:#e4c373; stroke-width:.65; }
+.p2-note-stem { stroke:#393624; stroke-width:.8; stroke-linecap:round; opacity:.86; }
+.p2-guide-label { font-family:var(--mono, ui-monospace, monospace); font-size:5px; letter-spacing:.16em; fill:#25231b; opacity:.38; }
+
+@media (max-width:800px){
+  .p2-brand-label .p2-brand-main{font-size:15px}
+  .p2-brand-label .p2-brand-sub{font-size:5px}
+  .p2-guide-label{display:none}
+}
+@media (prefers-reduced-motion: reduce){
+  .p2-note{transition:none!important}
+}

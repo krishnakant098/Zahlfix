@@ -1,0 +1,8 @@
+{
+  "mode": "Numerical capture/reassembly sweep over 31 different orbital departure times per layout",
+  "layouts": 9,
+  "checked": 1025604,
+  "maxTravellers": 2,
+  "errors": [],
+  "passed": true
+}

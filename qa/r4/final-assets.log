@@ -1,0 +1,6 @@
+{
+  "scope": "strict XML, internal references and isolated Chromium image-document decode",
+  "passed": 126,
+  "failed": 0,
+  "assets": 21
+}

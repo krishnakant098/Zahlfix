@@ -1,0 +1,23 @@
+ZAHLFIX.COM → NETLIFY DNS TEMPLATE
+==================================
+
+Keep DNS at united-domains.
+Do NOT change nameservers.
+Do NOT delete MX/SPF/DKIM/DMARC/email records.
+
+WEBSITE RECORDS
+
+1) ROOT / APEX
+Type:  A
+Host:  @   (or blank/root, depending on the united-domains UI)
+Value: 75.2.60.5
+
+2) WWW
+Type:  CNAME
+Host:  www
+Value: YOUR-SITE-NAME.netlify.app
+
+Replace YOUR-SITE-NAME with the exact hostname Netlify assigns.
+
+Remove old website A/AAAA/CNAME records that conflict with these two web records.
+Preserve all mail-related DNS records.

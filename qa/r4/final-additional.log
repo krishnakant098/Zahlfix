@@ -1,0 +1,302 @@
+PASS medium: complete opening at scroll zero
+PASS medium: ribbon surface loaded locally
+PASS medium: nine records and three precise tracks
+PASS medium: primary touch controls at least 44px high
+PASS medium: menu target is at least 44px wide
+PASS medium: pointer Continue reaches readable consulting state
+PASS medium: focus follows scene navigation
+PASS medium: keyboard Continue reaches implementation state
+PASS medium: scene 01 readable hold
+PASS medium: scene 01 text stays within viewport
+PASS medium: scene 02 readable hold
+PASS medium: scene 02 text stays within viewport
+PASS medium: scene 03 readable hold
+PASS medium: scene 03 text stays within viewport
+PASS medium: scene 04 readable hold
+PASS medium: scene 04 text stays within viewport
+PASS medium: scene 05 readable hold
+PASS medium: scene 05 text stays within viewport
+PASS medium: scene 06 readable hold
+PASS medium: scene 06 text stays within viewport
+PASS medium: scene 07 readable hold
+PASS medium: scene 07 text stays within viewport
+PASS medium: scene 08 readable hold
+PASS medium: scene 08 text stays within viewport
+PASS medium: scene 09 readable hold
+PASS medium: scene 09 text stays within viewport
+PASS medium: scene 10 readable hold
+PASS medium: scene 10 text stays within viewport
+PASS medium: scene 11 readable hold
+PASS medium: scene 11 text stays within viewport
+PASS medium: scene 12 readable hold
+PASS medium: scene 12 text stays within viewport
+PASS medium: scene 13 readable hold
+PASS medium: scene 13 text stays within viewport
+PASS medium: scene 14 readable hold
+PASS medium: scene 14 text stays within viewport
+PASS medium: scene 15 readable hold
+PASS medium: scene 15 text stays within viewport
+PASS medium: scene 16 readable hold
+PASS medium: scene 16 text stays within viewport
+PASS medium: scene 17 readable hold
+PASS medium: scene 17 text stays within viewport
+PASS medium: scene 18 readable hold
+PASS medium: scene 18 text stays within viewport
+PASS medium: scene 19 readable hold
+PASS medium: scene 19 text stays within viewport
+PASS medium: scene 20 readable hold
+PASS medium: capture trajectory stays stable on scroll hold
+PASS medium: ribbon takeover origin remains within one CSS pixel
+PASS medium: actual ribbon silhouette covers viewport before handoff
+PASS medium: ring nodes track exact drawn curves
+PASS medium: ring geometry stays clear of viewport edges
+PASS medium: unroll nodes track exact drawn curves
+PASS medium: unroll geometry stays clear of viewport edges
+PASS medium: rail nodes track exact drawn curves
+PASS medium: rail geometry stays clear of viewport edges
+PASS medium: curl nodes track exact drawn curves
+PASS medium: curl geometry stays clear of viewport edges
+PASS medium: atom nodes track exact drawn curves
+PASS medium: atom geometry stays clear of viewport edges
+PASS medium: service 01 reachable and selectable
+PASS medium: service 08 reachable and selectable
+PASS medium: service 10 reachable and selectable
+PASS medium: orientation preserves scene progress
+PASS medium: contact CTA lands on visible contact title
+PASS medium: header and menu remain reachable in native contact
+PASS medium: contact belongs to native page flow
+PASS medium: form text survives orientation
+PASS medium: enquiry action reachable without clipping
+PASS medium: copy action gives feedback without sending mail
+PASS medium: legal links reachable
+PASS medium: menu internally scrolls to last destination
+PASS medium: Escape restores focus to menu trigger
+PASS medium: reverse/fast seek restores intended reading state
+PASS medium: no horizontal document overflow
+PASS large-phone: complete opening at scroll zero
+PASS large-phone: ribbon surface loaded locally
+PASS large-phone: nine records and three precise tracks
+PASS large-phone: primary touch controls at least 44px high
+PASS large-phone: menu target is at least 44px wide
+PASS large-phone: pointer Continue reaches readable consulting state
+PASS large-phone: focus follows scene navigation
+PASS large-phone: keyboard Continue reaches implementation state
+PASS large-phone: scene 01 readable hold
+PASS large-phone: scene 01 text stays within viewport
+PASS large-phone: scene 02 readable hold
+PASS large-phone: scene 02 text stays within viewport
+PASS large-phone: scene 03 readable hold
+PASS large-phone: scene 03 text stays within viewport
+PASS large-phone: scene 04 readable hold
+PASS large-phone: scene 04 text stays within viewport
+PASS large-phone: scene 05 readable hold
+PASS large-phone: scene 05 text stays within viewport
+PASS large-phone: scene 06 readable hold
+PASS large-phone: scene 06 text stays within viewport
+PASS large-phone: scene 07 readable hold
+PASS large-phone: scene 07 text stays within viewport
+PASS large-phone: scene 08 readable hold
+PASS large-phone: scene 08 text stays within viewport
+PASS large-phone: scene 09 readable hold
+PASS large-phone: scene 09 text stays within viewport
+PASS large-phone: scene 10 readable hold
+PASS large-phone: scene 10 text stays within viewport
+PASS large-phone: scene 11 readable hold
+PASS large-phone: scene 11 text stays within viewport
+PASS large-phone: scene 12 readable hold
+PASS large-phone: scene 12 text stays within viewport
+PASS large-phone: scene 13 readable hold
+PASS large-phone: scene 13 text stays within viewport
+PASS large-phone: scene 14 readable hold
+PASS large-phone: scene 14 text stays within viewport
+PASS large-phone: scene 15 readable hold
+PASS large-phone: scene 15 text stays within viewport
+PASS large-phone: scene 16 readable hold
+PASS large-phone: scene 16 text stays within viewport
+PASS large-phone: scene 17 readable hold
+PASS large-phone: scene 17 text stays within viewport
+PASS large-phone: scene 18 readable hold
+PASS large-phone: scene 18 text stays within viewport
+PASS large-phone: scene 19 readable hold
+PASS large-phone: scene 19 text stays within viewport
+PASS large-phone: scene 20 readable hold
+PASS large-phone: capture trajectory stays stable on scroll hold
+PASS large-phone: ribbon takeover origin remains within one CSS pixel
+PASS large-phone: actual ribbon silhouette covers viewport before handoff
+PASS large-phone: ring nodes track exact drawn curves
+PASS large-phone: ring geometry stays clear of viewport edges
+PASS large-phone: unroll nodes track exact drawn curves
+PASS large-phone: unroll geometry stays clear of viewport edges
+PASS large-phone: rail nodes track exact drawn curves
+PASS large-phone: rail geometry stays clear of viewport edges
+PASS large-phone: curl nodes track exact drawn curves
+PASS large-phone: curl geometry stays clear of viewport edges
+PASS large-phone: atom nodes track exact drawn curves
+PASS large-phone: atom geometry stays clear of viewport edges
+PASS large-phone: service 01 reachable and selectable
+PASS large-phone: service 08 reachable and selectable
+PASS large-phone: service 10 reachable and selectable
+PASS large-phone: orientation preserves scene progress
+PASS large-phone: contact CTA lands on visible contact title
+PASS large-phone: header and menu remain reachable in native contact
+PASS large-phone: contact belongs to native page flow
+PASS large-phone: form text survives orientation
+PASS large-phone: enquiry action reachable without clipping
+PASS large-phone: copy action gives feedback without sending mail
+PASS large-phone: legal links reachable
+PASS large-phone: menu internally scrolls to last destination
+PASS large-phone: Escape restores focus to menu trigger
+PASS large-phone: reverse/fast seek restores intended reading state
+PASS large-phone: no horizontal document overflow
+PASS large-tablet: complete opening at scroll zero
+PASS large-tablet: ribbon surface loaded locally
+PASS large-tablet: nine records and three precise tracks
+PASS large-tablet: primary touch controls at least 44px high
+PASS large-tablet: menu target is at least 44px wide
+PASS large-tablet: pointer Continue reaches readable consulting state
+PASS large-tablet: focus follows scene navigation
+PASS large-tablet: keyboard Continue reaches implementation state
+PASS large-tablet: scene 01 readable hold
+PASS large-tablet: scene 01 text stays within viewport
+PASS large-tablet: scene 02 readable hold
+PASS large-tablet: scene 02 text stays within viewport
+PASS large-tablet: scene 03 readable hold
+PASS large-tablet: scene 03 text stays within viewport
+PASS large-tablet: scene 04 readable hold
+PASS large-tablet: scene 04 text stays within viewport
+PASS large-tablet: scene 05 readable hold
+PASS large-tablet: scene 05 text stays within viewport
+PASS large-tablet: scene 06 readable hold
+PASS large-tablet: scene 06 text stays within viewport
+PASS large-tablet: scene 07 readable hold
+PASS large-tablet: scene 07 text stays within viewport
+PASS large-tablet: scene 08 readable hold
+PASS large-tablet: scene 08 text stays within viewport
+PASS large-tablet: scene 09 readable hold
+PASS large-tablet: scene 09 text stays within viewport
+PASS large-tablet: scene 10 readable hold
+PASS large-tablet: scene 10 text stays within viewport
+PASS large-tablet: scene 11 readable hold
+PASS large-tablet: scene 11 text stays within viewport
+PASS large-tablet: scene 12 readable hold
+PASS large-tablet: scene 12 text stays within viewport
+PASS large-tablet: scene 13 readable hold
+PASS large-tablet: scene 13 text stays within viewport
+PASS large-tablet: scene 14 readable hold
+PASS large-tablet: scene 14 text stays within viewport
+PASS large-tablet: scene 15 readable hold
+PASS large-tablet: scene 15 text stays within viewport
+PASS large-tablet: scene 16 readable hold
+PASS large-tablet: scene 16 text stays within viewport
+PASS large-tablet: scene 17 readable hold
+PASS large-tablet: scene 17 text stays within viewport
+PASS large-tablet: scene 18 readable hold
+PASS large-tablet: scene 18 text stays within viewport
+PASS large-tablet: scene 19 readable hold
+PASS large-tablet: scene 19 text stays within viewport
+PASS large-tablet: scene 20 readable hold
+PASS large-tablet: capture trajectory stays stable on scroll hold
+PASS large-tablet: ribbon takeover origin remains within one CSS pixel
+PASS large-tablet: actual ribbon silhouette covers viewport before handoff
+PASS large-tablet: ring nodes track exact drawn curves
+PASS large-tablet: ring geometry stays clear of viewport edges
+PASS large-tablet: unroll nodes track exact drawn curves
+PASS large-tablet: unroll geometry stays clear of viewport edges
+PASS large-tablet: rail nodes track exact drawn curves
+PASS large-tablet: rail geometry stays clear of viewport edges
+PASS large-tablet: curl nodes track exact drawn curves
+PASS large-tablet: curl geometry stays clear of viewport edges
+PASS large-tablet: atom nodes track exact drawn curves
+PASS large-tablet: atom geometry stays clear of viewport edges
+PASS large-tablet: service 01 reachable and selectable
+PASS large-tablet: service 08 reachable and selectable
+PASS large-tablet: service 10 reachable and selectable
+PASS large-tablet: orientation preserves scene progress
+PASS large-tablet: contact CTA lands on visible contact title
+PASS large-tablet: header and menu remain reachable in native contact
+PASS large-tablet: contact belongs to native page flow
+PASS large-tablet: form text survives orientation
+PASS large-tablet: enquiry action reachable without clipping
+PASS large-tablet: copy action gives feedback without sending mail
+PASS large-tablet: legal links reachable
+PASS large-tablet: menu internally scrolls to last destination
+PASS large-tablet: Escape restores focus to menu trigger
+PASS large-tablet: reverse/fast seek restores intended reading state
+PASS large-tablet: no horizontal document overflow
+PASS zoom: complete opening at scroll zero
+PASS zoom: ribbon surface loaded locally
+PASS zoom: nine records and three precise tracks
+PASS zoom: primary touch controls at least 44px high
+PASS zoom: menu target is at least 44px wide
+PASS zoom: pointer Continue reaches readable consulting state
+PASS zoom: focus follows scene navigation
+PASS zoom: keyboard Continue reaches implementation state
+PASS zoom: scene 01 readable hold
+PASS zoom: scene 01 text stays within viewport
+PASS zoom: scene 02 readable hold
+PASS zoom: scene 02 text stays within viewport
+PASS zoom: scene 03 readable hold
+PASS zoom: scene 03 text stays within viewport
+PASS zoom: scene 04 readable hold
+PASS zoom: scene 04 text stays within viewport
+PASS zoom: scene 05 readable hold
+PASS zoom: scene 05 text stays within viewport
+PASS zoom: scene 06 readable hold
+PASS zoom: scene 06 text stays within viewport
+PASS zoom: scene 07 readable hold
+PASS zoom: scene 07 text stays within viewport
+PASS zoom: scene 08 readable hold
+PASS zoom: scene 08 text stays within viewport
+PASS zoom: scene 09 readable hold
+PASS zoom: scene 09 text stays within viewport
+PASS zoom: scene 10 readable hold
+PASS zoom: scene 10 text stays within viewport
+PASS zoom: scene 11 readable hold
+PASS zoom: scene 11 text stays within viewport
+PASS zoom: scene 12 readable hold
+PASS zoom: scene 12 text stays within viewport
+PASS zoom: scene 13 readable hold
+PASS zoom: scene 13 text stays within viewport
+PASS zoom: scene 14 readable hold
+PASS zoom: scene 14 text stays within viewport
+PASS zoom: scene 15 readable hold
+PASS zoom: scene 15 text stays within viewport
+PASS zoom: scene 16 readable hold
+PASS zoom: scene 16 text stays within viewport
+PASS zoom: scene 17 readable hold
+PASS zoom: scene 17 text stays within viewport
+PASS zoom: scene 18 readable hold
+PASS zoom: scene 18 text stays within viewport
+PASS zoom: scene 19 readable hold
+PASS zoom: scene 19 text stays within viewport
+PASS zoom: scene 20 readable hold
+PASS zoom: capture trajectory stays stable on scroll hold
+PASS zoom: ribbon takeover origin remains within one CSS pixel
+PASS zoom: actual ribbon silhouette covers viewport before handoff
+PASS zoom: ring nodes track exact drawn curves
+PASS zoom: ring geometry stays clear of viewport edges
+PASS zoom: unroll nodes track exact drawn curves
+PASS zoom: unroll geometry stays clear of viewport edges
+PASS zoom: rail nodes track exact drawn curves
+PASS zoom: rail geometry stays clear of viewport edges
+PASS zoom: curl nodes track exact drawn curves
+PASS zoom: curl geometry stays clear of viewport edges
+PASS zoom: atom nodes track exact drawn curves
+PASS zoom: atom geometry stays clear of viewport edges
+PASS zoom: service 01 reachable and selectable
+PASS zoom: service 08 reachable and selectable
+PASS zoom: service 10 reachable and selectable
+PASS zoom: orientation preserves scene progress
+PASS zoom: contact CTA lands on visible contact title
+PASS zoom: header and menu remain reachable in native contact
+PASS zoom: contact belongs to native page flow
+PASS zoom: form text survives orientation
+PASS zoom: enquiry action reachable without clipping
+PASS zoom: copy action gives feedback without sending mail
+PASS zoom: legal links reachable
+PASS zoom: menu internally scrolls to last destination
+PASS zoom: Escape restores focus to menu trigger
+PASS zoom: reverse/fast seek restores intended reading state
+PASS zoom: no horizontal document overflow
+PASS no uncaught browser errors
+{"passed": 301, "failed": 0}

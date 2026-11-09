@@ -1,0 +1,44 @@
+{
+  "name": "zahlfix-v6-netlify-production",
+  "version": "6.17.3-i18n-p3",
+  "private": true,
+  "description": "ZahlFix bilingual Phase 3: EN/DE all 20 scenes, contact and legal paths on R6.1",
+  "dependencies": {
+    "@netlify/blobs": "11.0.2"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "build": "node tools/build-locales.mjs && npm run check",
+    "check": "node tools/build-locales.mjs && npm run check:legacy && node tools/source-check.mjs && npm run test:unit && npm run test:i18n",
+    "check:legacy": "node tools/predeploy-check.mjs && node tools/german-language-check.mjs && node tools/login-visual-check.mjs",
+    "test:unit": "node --import ./tests/unit/register.mjs --test tests/unit/*.test.mjs",
+    "dev": "node tools/build-locales.mjs && node tools/serve.mjs",
+    "test:browser": "python3 tests/browser/r4-regression.py",
+    "auth:rotate": "node tools/manage-pin.mjs",
+    "lock": "npm install --package-lock-only --ignore-scripts --no-audit --no-fund",
+    "test:failure": "python3 tests/browser/r4-lifecycle.py",
+    "test:phase1": "python3 tests/browser/r4-regression.py",
+    "assets:phase1": "node tools/build-phase1-assets.mjs",
+    "test:phase1:geometry": "node tools/check-phase1-layouts.mjs",
+    "test:phase1:lifecycle": "python3 tests/browser/r4-lifecycle.py",
+    "test:phase1:capture": "node tools/check-phase1-capture.mjs",
+    "test:mobile": "python3 tests/browser/r4-regression.py",
+    "test:assets": "python3 tests/browser/r4-assets.py",
+    "test:mobile:geometry": "node tools/check-phase1-layouts.mjs && node tools/check-phase1-capture.mjs",
+    "test:scenes06-09": "python3 tests/browser/scene0609-regression.py",
+    "test:fullstory-smoke": "python3 tests/browser/scene0609-fullstory-smoke.py",
+    "auth:pin": "node tools/manage-pin.mjs",
+    "auth:bootstrap": "node tools/bootstrap-pin.mjs",
+    "test:r6": "python3 tests/browser/r6-login-menu.py",
+    "test:r61": "python3 tests/browser/r61-entry.py && python3 tests/browser/r61-responsive.py",
+    "test:i18n": "node --import ./tests/unit/register.mjs --test tests/unit/i18n.test.mjs",
+    "test:i18n:browser": "python3 tests/browser/i18n-phase1.py",
+    "test:i18n:browser:p2": "python3 tests/browser/i18n-phase2.py",
+    "test:i18n:p2": "node --import ./tests/unit/register.mjs --test tests/unit/i18n-phase2.test.mjs",
+    "test:i18n:browser:p3": "python3 tests/browser/i18n-phase3.py",
+    "test:i18n:p3": "node --import ./tests/unit/register.mjs --test tests/unit/i18n-phase3.test.mjs"
+  },
+  "type": "module"
+}

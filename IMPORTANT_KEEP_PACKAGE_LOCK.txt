@@ -1,0 +1,11 @@
+R5.2 does not change npm dependencies. The source archive used for this build did not contain package-lock.json.
+
+When updating the existing zahlfix-v6-production Git repository, prefer the separate R5.2 minimal patch ZIP so your current reviewed package-lock.json stays in place.
+
+If you replace the entire repository contents instead, preserve the existing package-lock.json or regenerate/review it with:
+
+  npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+  npm ci
+  npm run check
+
+Do not commit node_modules or any Netlify token/.env secret.

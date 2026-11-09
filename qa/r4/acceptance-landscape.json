@@ -1,0 +1,860 @@
+{
+  "mode": "in-memory Chromium SVG/DOM fixture, WebGL disabled",
+  "passed": 76,
+  "failed": 0,
+  "results": [
+    {
+      "test": "landscape: complete opening at scroll zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: ribbon surface loaded locally",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: nine records and three precise tracks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: primary touch controls at least 44px high",
+      "passed": true,
+      "detail": [
+        {
+          "w": 120.421875,
+          "h": 44
+        },
+        {
+          "w": 54.78125,
+          "h": 44
+        },
+        {
+          "w": 44,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "test": "landscape: menu target is at least 44px wide",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: pointer Continue reaches readable consulting state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: focus follows scene navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: keyboard Continue reaches implementation state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: scene 01 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 01 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 458.875,
+          "t": 88,
+          "b": 97
+        },
+        {
+          "l": 20,
+          "r": 458.875,
+          "t": 109,
+          "b": 205.09375
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 02 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 02 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 450.4375,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 450.4375,
+          "t": 101,
+          "b": 162.84375
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 03 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 03 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 450.4375,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 450.4375,
+          "t": 101,
+          "b": 193.765625
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 04 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 04 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 492.625,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 492.625,
+          "t": 101,
+          "b": 195.59375
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 05 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 05 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 509.515625,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 509.515625,
+          "t": 101,
+          "b": 196.5
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 06 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 06 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 534.828125,
+          "t": 81.890625,
+          "b": 90.890625
+        },
+        {
+          "l": 20,
+          "r": 534.828125,
+          "t": 112.890625,
+          "b": 241.796875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 07 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 07 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 509.515625,
+          "t": 105.296875,
+          "b": 114.296875
+        },
+        {
+          "l": 20,
+          "r": 509.515625,
+          "t": 136.296875,
+          "b": 221.65625
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 08 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 08 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 492.625,
+          "t": 97.5,
+          "b": 106.5
+        },
+        {
+          "l": 20,
+          "r": 492.625,
+          "t": 128.5,
+          "b": 213.859375
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 09 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 09 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 323.828125,
+          "t": 110,
+          "b": 167.1875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 10 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 10 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 467.3125,
+          "t": 104,
+          "b": 206.703125
+        },
+        {
+          "l": 20,
+          "r": 374.46875,
+          "t": 220.703125,
+          "b": 258.390625
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 11 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 11 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 408.234375,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 408.234375,
+          "t": 107,
+          "b": 176.40625
+        },
+        {
+          "l": 20,
+          "r": 408.234375,
+          "t": 190.40625,
+          "b": 211.40625
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 12 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 12 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 236.5625
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 13 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 13 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 171.78125
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 193.78125,
+          "b": 215.46875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 14 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 14 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 171.78125
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 193.78125,
+          "b": 215.46875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 15 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 15 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 171.78125
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 193.78125,
+          "b": 215.46875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 16 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 16 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 104,
+          "b": 168.78125
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 17 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 17 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 171.78125
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 18 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 18 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 416.671875,
+          "t": 107,
+          "b": 198.546875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 19 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: scene 19 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 779.59375,
+          "t": 80,
+          "b": 89
+        },
+        {
+          "l": 20,
+          "r": 779.59375,
+          "t": 106,
+          "b": 164.796875
+        },
+        {
+          "l": 20,
+          "r": 645.65625,
+          "t": 176.796875,
+          "b": 244.296875
+        }
+      ]
+    },
+    {
+      "test": "landscape: scene 20 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "landscape: capture trajectory stays stable on scroll hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: ribbon takeover origin remains within one CSS pixel",
+      "passed": true,
+      "detail": {
+        "core": {
+          "x": 637.8799904584885,
+          "y": 207.00000083446503
+        },
+        "wipe": {
+          "x": 637.880035161972,
+          "y": 206.99999976158142
+        }
+      }
+    },
+    {
+      "test": "landscape: actual ribbon silhouette covers viewport before handoff",
+      "passed": true,
+      "detail": 77
+    },
+    {
+      "test": "landscape: ring nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.00025469630092749023
+    },
+    {
+      "test": "landscape: ring geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 605.780029296875,
+          "r": 669.97998046875,
+          "t": 174.90000915527344,
+          "b": 239.09999084472656
+        },
+        {
+          "l": 579.8530883789062,
+          "r": 695.9069213867188,
+          "t": 148.97308349609375,
+          "b": 265.02691650390625
+        },
+        {
+          "l": 553.9261474609375,
+          "r": 721.8338623046875,
+          "t": 123.0461654663086,
+          "b": 290.95381927490234
+        }
+      ]
+    },
+    {
+      "test": "landscape: unroll nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.0003353688017206658
+    },
+    {
+      "test": "landscape: unroll geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 591.7740478515625,
+          "r": 683.9859619140625,
+          "t": 163.43495178222656,
+          "b": 232.3528289794922
+        },
+        {
+          "l": 564.2615966796875,
+          "r": 711.4984130859375,
+          "t": 151.9789581298828,
+          "b": 262.0210266113281
+        },
+        {
+          "l": 536.7491455078125,
+          "r": 739.0108642578125,
+          "t": 140.52255249023438,
+          "b": 291.6896667480469
+        }
+      ]
+    },
+    {
+      "test": "landscape: rail nodes track exact drawn curves",
+      "passed": true,
+      "detail": 5.023662865255574e-06
+    },
+    {
+      "test": "landscape: rail geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 550.6338500976562,
+          "r": 725.1261596679688,
+          "t": 179.83847045898438,
+          "b": 179.83847045898438
+        },
+        {
+          "l": 540.7569580078125,
+          "r": 735.0030517578125,
+          "t": 207,
+          "b": 207
+        },
+        {
+          "l": 530.8800048828125,
+          "r": 744.8800048828125,
+          "t": 234.16152954101562,
+          "b": 234.16152954101562
+        }
+      ]
+    },
+    {
+      "test": "landscape: curl nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.00034817039721545
+    },
+    {
+      "test": "landscape: curl geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 512.3595581054688,
+          "r": 763.5341796875,
+          "t": 162.0712432861328,
+          "b": 215.02500915527344
+        },
+        {
+          "l": 506.32147216796875,
+          "r": 769.4385375976562,
+          "t": 179.91954040527344,
+          "b": 234.08045959472656
+        },
+        {
+          "l": 499.8952941894531,
+          "r": 774.9285278320312,
+          "t": 197.7503204345703,
+          "b": 255.7339630126953
+        }
+      ]
+    },
+    {
+      "test": "landscape: atom nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.00202812788485938
+    },
+    {
+      "test": "landscape: atom geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 583.8026733398438,
+          "r": 691.9573364257812,
+          "t": 126.75293731689453,
+          "b": 287.24707794189453
+        },
+        {
+          "l": 547.341552734375,
+          "r": 728.41845703125,
+          "t": 172.84231567382812,
+          "b": 241.15768432617188
+        },
+        {
+          "l": 583.8026733398438,
+          "r": 691.9573364257812,
+          "t": 126.75293731689453,
+          "b": 287.24707794189453
+        }
+      ]
+    },
+    {
+      "test": "landscape: service 01 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: service 08 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: service 10 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: orientation preserves scene progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: contact CTA lands on visible contact title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: header and menu remain reachable in native contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: contact belongs to native page flow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: form text survives orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: enquiry action reachable without clipping",
+      "passed": true,
+      "detail": {
+        "x": 20,
+        "y": 327.859375,
+        "width": 804,
+        "height": 62
+      }
+    },
+    {
+      "test": "landscape: copy action gives feedback without sending mail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: legal links reachable",
+      "passed": true,
+      "detail": {
+        "x": 20,
+        "y": 218.484375,
+        "width": 804,
+        "height": 44
+      }
+    },
+    {
+      "test": "landscape: menu internally scrolls to last destination",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: Escape restores focus to menu trigger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: reverse/fast seek restores intended reading state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "landscape: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no uncaught browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "label": "landscape",
+      "layout": {
+        "w": 844,
+        "h": 390,
+        "mobile": false,
+        "hero": {
+          "x": 483.76000000000005,
+          "y": 100,
+          "width": 308.23999999999995,
+          "height": 214
+        },
+        "system": {
+          "x": 483.76000000000005,
+          "y": 100,
+          "width": 308.23999999999995,
+          "height": 214
+        },
+        "cx": 637.88,
+        "cy": 207,
+        "radii": [
+          42.8,
+          79.93529411764706,
+          117.07058823529411
+        ],
+        "projection": 0.8,
+        "rotation": -0.10471975511965977,
+        "docWidth": 17,
+        "docHeight": 23.375,
+        "zSize": 40.28235294117647,
+        "sink": {
+          "x": 253.234375,
+          "y": 144.1453125
+        },
+        "grid": {
+          "x": 545.408,
+          "y": 207,
+          "gapX": 22.44,
+          "gapY": 27.5825,
+          "scale": 1
+        },
+        "textBounds": [
+          {
+            "left": 20,
+            "right": 360.65625,
+            "top": 107,
+            "bottom": 205.453125
+          },
+          {
+            "left": 20,
+            "right": 219.234375,
+            "top": 98,
+            "bottom": 163.921875
+          },
+          {
+            "left": 20,
+            "right": 226.3125,
+            "top": 98,
+            "bottom": 194.84375
+          },
+          {
+            "left": 20,
+            "right": 304.109375,
+            "top": 99,
+            "bottom": 197.0625
+          },
+          {
+            "left": 20,
+            "right": 356.921875,
+            "top": 99,
+            "bottom": 197.96875
+          }
+        ],
+        "systemX": 637.88,
+        "systemY": 207,
+        "systemScale": 0.4115384615384615
+      }
+    }
+  ]
+}

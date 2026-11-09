@@ -1,0 +1,161 @@
+{
+  "mode": "in-memory Chromium R6 focused UI checks",
+  "passed": 23,
+  "failed": 0,
+  "results": [
+    {
+      "test": "login fixture generated from production handler",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "login uses the three shared Scene-01 orbit paths",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "login begins as PIN instrument, not orbital end state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "login has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "four visual PIN positions fill from one accessible input",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "accepted PIN enters cinematic orbit state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "accepted PIN expands shared orbit geometry",
+      "passed": true,
+      "detail": "matrix(1, 0, 0, 0.96295, 0, -0.905489)"
+    },
+    {
+      "test": "login transition status confirms accepted access",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mobile login has no horizontal overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mobile login requests numeric keypad metadata",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "mobile authenticated core stays within viewport",
+      "passed": true,
+      "detail": {
+        "x": 120.29739379882812,
+        "y": 273.1489562988281,
+        "width": 79.98330688476562,
+        "height": 79.98333740234375
+      }
+    },
+    {
+      "test": "menu is hidden before first interaction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "menu deploys from top and becomes interactive",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "menu transform is animating toward viewport",
+      "passed": true,
+      "detail": "matrix(1, 0, 0, 1, 0, 0)"
+    },
+    {
+      "test": "global custom cursor remains active over menu",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "menu cursor renderer follows pointer while scene clock is paused",
+      "passed": true,
+      "detail": {
+        "before": {
+          "x": 1347.57,
+          "y": 40.5,
+          "visible": true
+        },
+        "after": {
+          "x": 270,
+          "y": 372.22,
+          "visible": true
+        },
+        "target": {
+          "x": 235,
+          "y": 383.0
+        }
+      }
+    },
+    {
+      "test": "menu cursor is visibly rendered after pointer movement",
+      "passed": true,
+      "detail": {
+        "x": 270,
+        "y": 372.22,
+        "visible": true
+      }
+    },
+    {
+      "test": "menu link exposes contextual cursor label",
+      "passed": true,
+      "detail": "ZAHLFIX"
+    },
+    {
+      "test": "menu cursor continues tracking across distant navigation targets",
+      "passed": true,
+      "detail": {
+        "first": {
+          "x": 270,
+          "y": 372.22,
+          "visible": true
+        },
+        "second": {
+          "x": 273.88,
+          "y": 716.58,
+          "visible": true
+        },
+        "target": {
+          "x": 275,
+          "y": 727.0
+        }
+      }
+    },
+    {
+      "test": "pointer leave hides the custom cursor cleanly",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "pointer re-entry restores custom cursor visibility",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "menu reels back and returns to hidden state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Escape restores focus to trigger",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

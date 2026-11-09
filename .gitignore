@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.netlify/
+__pycache__/
+*.pyc
+.DS_Store
+*.tmp
+qa/browser-results.partial.json

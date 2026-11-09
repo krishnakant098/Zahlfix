@@ -1,0 +1,860 @@
+{
+  "mode": "in-memory Chromium SVG/DOM fixture, WebGL disabled",
+  "passed": 76,
+  "failed": 0,
+  "results": [
+    {
+      "test": "tablet: complete opening at scroll zero",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: ribbon surface loaded locally",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: nine records and three precise tracks",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: primary touch controls at least 44px high",
+      "passed": true,
+      "detail": [
+        {
+          "w": 120.421875,
+          "h": 44
+        },
+        {
+          "w": 54.78125,
+          "h": 44
+        },
+        {
+          "w": 44,
+          "h": 44
+        }
+      ]
+    },
+    {
+      "test": "tablet: menu target is at least 44px wide",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: pointer Continue reaches readable consulting state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: focus follows scene navigation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: keyboard Continue reaches implementation state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: scene 01 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 01 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 103,
+          "b": 118.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 132.9375,
+          "b": 421.234375
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 02 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 02 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 276.34375
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 03 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 03 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 354.546875
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 04 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 04 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 329
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 05 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 05 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 330.875
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 06 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 06 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 350.78125
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 07 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 07 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 273.03125
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 08 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 08 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 273.03125
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 09 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 09 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.390625,
+          "b": 214.421875
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 10 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 10 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 327.265625
+        },
+        {
+          "l": 20,
+          "r": 520.53125,
+          "t": 343.265625,
+          "b": 365.765625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 11 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 11 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 258.78125
+        },
+        {
+          "l": 20,
+          "r": 520.53125,
+          "t": 274.78125,
+          "b": 297.28125
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 12 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 12 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 125.9375,
+          "b": 402.375
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 13 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 13 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 125.9375,
+          "b": 333.265625
+        },
+        {
+          "l": 20,
+          "r": 520.53125,
+          "t": 349.265625,
+          "b": 371.765625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 14 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 14 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 125.9375,
+          "b": 333.265625
+        },
+        {
+          "l": 20,
+          "r": 520.53125,
+          "t": 349.265625,
+          "b": 371.765625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 15 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 15 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 125.9375,
+          "b": 264.15625
+        },
+        {
+          "l": 20,
+          "r": 520.53125,
+          "t": 280.15625,
+          "b": 302.65625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 16 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 16 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 258.15625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 17 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 17 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 258.15625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 18 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 18 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 313.875
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 19 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: scene 19 text stays within viewport",
+      "passed": true,
+      "detail": [
+        {
+          "l": 20,
+          "r": 748,
+          "t": 92,
+          "b": 107.9375
+        },
+        {
+          "l": 20,
+          "r": 748,
+          "t": 119.9375,
+          "b": 298.234375
+        },
+        {
+          "l": 20,
+          "r": 589.5,
+          "t": 316.234375,
+          "b": 390.625
+        }
+      ]
+    },
+    {
+      "test": "tablet: scene 20 readable hold",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "test": "tablet: capture trajectory stays stable on scroll hold",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: ribbon takeover origin remains within one CSS pixel",
+      "passed": true,
+      "detail": {
+        "core": {
+          "x": 383.9999966621399,
+          "y": 692.4220242500305
+        },
+        "wipe": {
+          "x": 383.99999618530273,
+          "y": 692.4220085144043
+        }
+      }
+    },
+    {
+      "test": "tablet: actual ribbon silhouette covers viewport before handoff",
+      "passed": true,
+      "detail": 77
+    },
+    {
+      "test": "tablet: ring nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.0006312659720184151
+    },
+    {
+      "test": "tablet: ring geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 304.44000244140625,
+          "r": 463.55999755859375,
+          "t": 566.5337524414062,
+          "b": 725.6537475585938
+        },
+        {
+          "l": 240.1800079345703,
+          "r": 527.8200225830078,
+          "t": 502.27374267578125,
+          "b": 789.9137573242188
+        },
+        {
+          "l": 175.9199981689453,
+          "r": 592.0800323486328,
+          "t": 438.0137634277344,
+          "b": 854.1737670898438
+        }
+      ]
+    },
+    {
+      "test": "tablet: unroll nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.000720343014173783
+    },
+    {
+      "test": "tablet: unroll geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 269.9342956542969,
+          "r": 498.0657043457031,
+          "t": 538.1553344726562,
+          "b": 709.0736694335938
+        },
+        {
+          "l": 201.76763916015625,
+          "r": 566.2323608398438,
+          "t": 509.5636901855469,
+          "b": 782.623779296875
+        },
+        {
+          "l": 133.60098266601562,
+          "r": 634.3990478515625,
+          "t": 480.97308349609375,
+          "b": 856.1729736328125
+        }
+      ]
+    },
+    {
+      "test": "tablet: rail nodes track exact drawn curves",
+      "passed": true,
+      "detail": 1.2451171886596058e-05
+    },
+    {
+      "test": "tablet: rail geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 167.760009765625,
+          "r": 600.239990234375,
+          "t": 578.7737426757812,
+          "b": 578.7737426757812
+        },
+        {
+          "l": 143.27999877929688,
+          "r": 624.719970703125,
+          "t": 646.09375,
+          "b": 646.09375
+        },
+        {
+          "l": 118.80000305175781,
+          "r": 649.2000274658203,
+          "t": 713.4137573242188,
+          "b": 713.4137573242188
+        }
+      ]
+    },
+    {
+      "test": "tablet: curl nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.0011096937540475036
+    },
+    {
+      "test": "tablet: curl geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 73.1386947631836,
+          "r": 695.1642684936523,
+          "t": 535.1417236328125,
+          "b": 665.087158203125
+        },
+        {
+          "l": 58.09369659423828,
+          "r": 709.9063186645508,
+          "t": 579.55810546875,
+          "b": 712.62939453125
+        },
+        {
+          "l": 42.124568939208984,
+          "r": 723.6671714782715,
+          "t": 623.9366455078125,
+          "b": 766.3160400390625
+        }
+      ]
+    },
+    {
+      "test": "tablet: atom nodes track exact drawn curves",
+      "passed": true,
+      "detail": 0.00502672443985708
+    },
+    {
+      "test": "tablet: atom geometry stays clear of viewport edges",
+      "passed": true,
+      "detail": [
+        {
+          "l": 249.96908569335938,
+          "r": 518.0309448242188,
+          "t": 447.2010192871094,
+          "b": 844.9864501953125
+        },
+        {
+          "l": 159.60000610351562,
+          "r": 608.4000244140625,
+          "t": 561.4337768554688,
+          "b": 730.7537231445312
+        },
+        {
+          "l": 249.96908569335938,
+          "r": 518.0309448242188,
+          "t": 447.2010192871094,
+          "b": 844.9864501953125
+        }
+      ]
+    },
+    {
+      "test": "tablet: service 01 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: service 08 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: service 10 reachable and selectable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: orientation preserves scene progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: contact CTA lands on visible contact title",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: header and menu remain reachable in native contact",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: contact belongs to native page flow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: form text survives orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: enquiry action reachable without clipping",
+      "passed": true,
+      "detail": {
+        "x": 20,
+        "y": 774.859375,
+        "width": 728,
+        "height": 62
+      }
+    },
+    {
+      "test": "tablet: copy action gives feedback without sending mail",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: legal links reachable",
+      "passed": true,
+      "detail": {
+        "x": 20,
+        "y": 866.484375,
+        "width": 728,
+        "height": 44
+      }
+    },
+    {
+      "test": "tablet: menu internally scrolls to last destination",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: Escape restores focus to menu trigger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: reverse/fast seek restores intended reading state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "tablet: no horizontal document overflow",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "no uncaught browser errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "label": "tablet",
+      "layout": {
+        "w": 768,
+        "h": 1024,
+        "mobile": true,
+        "hero": {
+          "x": 20,
+          "y": 442.84375,
+          "width": 728,
+          "height": 499.15625
+        },
+        "system": {
+          "x": 20,
+          "y": 350.1875,
+          "width": 728,
+          "height": 591.8125
+        },
+        "cx": 384,
+        "cy": 692.421875,
+        "radii": [
+          113.16,
+          195.95999999999998,
+          278.76
+        ],
+        "projection": 0.7,
+        "rotation": -0.10471975511965977,
+        "docWidth": 32.843999999999994,
+        "docHeight": 45.16049999999999,
+        "zSize": 121.44,
+        "sink": {
+          "x": 384,
+          "y": 400.246225
+        },
+        "grid": {
+          "x": 165.6,
+          "y": 692.421875,
+          "gapX": 43.354079999999996,
+          "gapY": 53.28938999999999,
+          "scale": 1
+        },
+        "textBounds": [
+          {
+            "left": 20,
+            "right": 513.328125,
+            "top": 128.9375,
+            "bottom": 422.84375
+          },
+          {
+            "left": 20,
+            "right": 499.84375,
+            "top": 116.9375,
+            "bottom": 279.140625
+          },
+          {
+            "left": 20,
+            "right": 394.953125,
+            "top": 116.9375,
+            "bottom": 357.34375
+          },
+          {
+            "left": 20,
+            "right": 596.625,
+            "top": 118.9375,
+            "bottom": 328.3125
+          },
+          {
+            "left": 20,
+            "right": 703.8125,
+            "top": 118.9375,
+            "bottom": 330.1875
+          }
+        ],
+        "systemX": 384,
+        "systemY": 646.09375,
+        "systemScale": 1.02
+      }
+    }
+  ]
+}

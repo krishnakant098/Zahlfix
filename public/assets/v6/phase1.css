@@ -1,0 +1,106 @@
+/* R3 Gold Observatory. Editable material layers on the repaired R2 geometry.
+ * All illumination uses ordinary SVG gradients: no blur, filter chain or new clock.
+ */
+.phase1-world { position:absolute; inset:0; z-index:14; overflow:hidden; pointer-events:none; contain:layout paint; }
+.p1-svg { position:absolute; left:55%; top:18%; width:42%; height:65%; display:block; overflow:visible; }
+.phase1-world.is-ready .p1-svg { inset:0; width:100%; height:100%; }
+.p1-svg path { vector-effect:non-scaling-stroke; }
+.p1-metal path,.p1-metal use,.p1-document path,.p1-document use,.p1-document rect { vector-effect:none; }
+.p1-z-takeover { fill:#C39438; }
+.p1-orbit-bed,.p1-orbit-near,.p1-orbit-far,.p1-orbit-glint { fill:none; }
+.p1-orbit-bed { stroke:#080D11; stroke-width:2.6; stroke-opacity:.5; }
+.p1-orbit-far { stroke:#78633F; stroke-width:.85; stroke-opacity:.75; }
+.p1-orbit-near { stroke:url(#p1m-orbit-metal); stroke-width:1.2; }
+.p1-orbit-glint { stroke:url(#p1m-orbit-glint); stroke-width:.6; }
+.p1-doc { opacity:1; } .p1-doc-compact { display:none; }
+.p1-doc-docking-edge { vector-effect:none; }
+.p1-aperture-art { fill:none; } .p1-capture-marks { stroke:#E3C57E; stroke-width:1.15; }
+.p1-track-master { fill:none; stroke:none; }
+.p1-material-segment path { fill:none; stroke-linecap:butt; stroke-linejoin:round; }
+.p1-track-dot { fill:url(#p1m-bead-ink); }
+.p1-document * { shape-rendering:geometricPrecision; }
+@media(max-width:800px) {
+  .p1-fine-detail { display:none; }
+  .p1-calibration { opacity:.8; }
+  .p1-orbit-far { stroke-width:.7; }
+  .p1-orbit-near { stroke-width:1; }
+  .p1-material-segment .p1-rail-light { stroke-width:1.6; }
+  .p1-material-segment .p1-rail-body { stroke-width:1.05; }
+  .p1-material-segment .p1-rail-edge { stroke-width:.3; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .p1-observatory-setting [data-decoration="stars"] { display:none; }
+}
+/* Gold is installed only after the measured Z silhouette covers the viewport. */
+.field--yellow { clip-path:none!important; opacity:0; }
+html[data-story="challenge"] .challenge-visual,html[data-story="processes"] .challenge-visual { visibility:hidden!important; opacity:0!important; }
+[data-p1-surface="gold"] { color:#121212!important; }
+[data-p1-surface="dark"] { color:#f4f2ea!important; }
+html:not(.is-cinematic) .phase1-world { display:none!important; }
+.phase1-world.is-fallback { visibility:hidden; }
+html[data-story="opening"] .phase1-world.is-fallback,
+html[data-story="consulting"] .phase1-world.is-fallback,
+html[data-story="delivery"] .phase1-world.is-fallback { visibility:visible; }
+/* Give the first five beats an explicit text column; preserve all approved wording. */
+.hero-copy.story-beat--01 { width:52vw; top:23vh; }
+.hero-copy.story-beat--01 h1 { margin:20px 0 0; }
+.hero-copy .hero-line--1 { font-size:clamp(50px,6.5vw,112px); line-height:1.01; }
+.hero-copy .hero-line--2 { font-size:clamp(24px,3.02vw,54px); line-height:1.26; }
+.hero-copy .hero-line--3 { font-size:clamp(52px,6vw,100px); line-height:1.03; }
+.story-beat--02,.story-beat--03 { width:51vw; top:27vh; }
+.story-beat--02 strong,.story-beat--03 strong { max-width:51vw; font-size:clamp(44px,5.7vw,100px); line-height:.99; }
+.story-beat--03 strong span:nth-child(2) { padding-left:3vw; }
+.story-beat--03 strong em { padding-left:6vw; }
+.principle-copy.story-beat--04 { width:56vw; top:25vh; }
+.principle-copy.story-beat--04 h2 { font-size:clamp(40px,5.25vw,94px); line-height:1.01; letter-spacing:-.059em; }
+.story-beat--05 { width:58vw; top:25vh; }
+.story-beat--05 strong { max-width:58vw; font-size:clamp(40px,5.05vw,88px); line-height:1.01; }
+.principle-copy.story-beat--04 h2 .principle-line--2 { color:#40351f; }
+.principle-copy.story-beat--04 h2 .principle-line--3 { color:#514126; }
+.story-beat--05 strong span:nth-child(2) { color:#40351f; }
+.story-beat--05 strong span:nth-child(3) { color:#514126; }
+@media(max-width:800px) {
+  .p1-svg { left:6%; top:43%; width:88%; height:45%; }
+  .p1-doc-full { display:none; } .p1-doc-compact { display:inline!important; }
+  .hero-copy.story-beat--01,.story-beat--02,.story-beat--03,
+  .principle-copy.story-beat--04,.story-beat--05 { left:20px; right:22px; width:auto; top:calc(var(--header-height) + 54px); }
+  .hero-copy.story-beat--01 h1 { margin-top:16px; }
+  .hero-copy .hero-line--1 { font-size:10.8vw; line-height:1.02; }
+  .hero-copy .hero-line--2 { font-size:5.35vw; line-height:1.32; }
+  .hero-copy .hero-line--3 { font-size:12vw; line-height:1.05; }
+  .story-beat--02 strong,.story-beat--03 strong { max-width:none; font-size:10.8vw; line-height:1.03; }
+  .story-beat--03 strong span:nth-child(2),.story-beat--03 strong em { padding-left:0; }
+  .principle-copy.story-beat--04 h2,.story-beat--05 strong { max-width:none; font-size:8.9vw; line-height:1.09; }
+  .story-beat--03 small { margin-top:14px; }
+  .story-beat--01 .kicker,.story-beat--02 .story-number,.story-beat--03 .story-number,
+  .story-beat--04 .eyebrow,.story-beat--05 .story-number { font-size:9px; margin-bottom:14px; }
+  .p1-orbit-far,.p1-orbit-near { stroke-width:1; }
+}
+@media(max-width:800px) and (max-height:650px) {
+  .hero-copy.story-beat--01,.story-beat--02,.story-beat--03,
+  .principle-copy.story-beat--04,.story-beat--05 { top:110px; }
+  .hero-copy .hero-line--1 { font-size:10.4vw; }
+  .hero-copy .hero-line--2 { font-size:5.25vw; }
+  .hero-copy .hero-line--3 { font-size:11vw; }
+  .story-beat--03 small { display:none; }
+}
+@media(min-width:600px) and (max-height:550px) and (orientation:landscape) {
+  .p1-doc-full { display:none; } .p1-doc-compact { display:inline!important; }
+  :root { --header-height:60px; }
+  .hero-copy.story-beat--01 { left:var(--pad); right:auto; width:52vw; }
+  .story-beat--02,.story-beat--03 { left:var(--pad); right:auto; width:51vw; }
+  .principle-copy.story-beat--04 { left:var(--pad); right:auto; width:56vw; }
+  .story-beat--05 { left:var(--pad); right:auto; width:58vw; }
+  .p1-svg { left:55%; top:18%; width:42%; height:65%; }
+  .hero-copy.story-beat--01,.story-beat--02,.story-beat--03,
+  .principle-copy.story-beat--04,.story-beat--05 { top:112px; }
+  .hero-copy .hero-line--1 { font-size:4.2vw; }
+  .hero-copy .hero-line--2 { font-size:2.5vw; }
+  .hero-copy .hero-line--3 { font-size:4.4vw; }
+  .hero-copy.story-beat--01 h1 { margin-top:12px; }
+  .story-beat--02 strong,.story-beat--03 strong,
+  .principle-copy.story-beat--04 h2,.story-beat--05 strong { font-size:4vw; }
+  .story-beat--03 small { display:none; }
+  .story-beat--02 .story-number,.story-beat--03 .story-number,
+  .story-beat--04 .eyebrow,.story-beat--05 .story-number { margin-bottom:12px; }
+}

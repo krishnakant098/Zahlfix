@@ -1,0 +1,47 @@
+PASS page-transition pauses active orbital time
+PASS page-transition resume excludes elapsed paused time
+PASS freeze pauses active orbital time
+PASS freeze resume excludes elapsed paused time
+PASS open menu pauses orbital time
+PASS orientation in Z takeover preserves progress
+PASS orientation in takeover keeps the same visible origin
+PASS synthetic touch-toolbar expansion keeps stage and scroll stable
+PASS synthetic keyboard resize leaves narrative mapping unchanged
+PASS synthetic keyboard keeps field reachable in visible region
+PASS synthetic keyboard does not discard enquiry
+PASS enlarged root type selects flowing readable presentation
+PASS flowing presentation retains all 20 narrative beats
+PASS in-place fallback retains entered enquiry
+PASS resume cannot restart animation after readable fallback
+PASS text fallback clears gold-scene header theme
+PASS text fallback contact navigation reaches natural-flow title
+PASS reduced-motion retains readable narrative
+PASS reduced-motion removes blocking loader
+PASS reduced-motion retains direct email access
+PASS reduced-motion has no horizontal overflow
+PASS module-failure retains readable narrative
+PASS module-failure removes blocking loader
+PASS module-failure retains direct email access
+PASS module-failure has no horizontal overflow
+PASS no-javascript retains readable narrative
+PASS no-javascript removes blocking loader
+PASS no-javascript retains direct email access
+PASS no-javascript has no horizontal overflow
+PASS isolated scene failure retains complete static artwork
+PASS isolated scene failure leaves navigation working
+PASS authentication templates generated from unchanged request handlers
+PASS login 320 has no horizontal clipping
+PASS login 320 input reachable
+PASS login 844 has no horizontal clipping
+PASS login 844 input reachable
+PASS setup 320 has no horizontal clipping
+PASS setup 320 input reachable
+PASS setup 844 has no horizontal clipping
+PASS setup 844 input reachable
+PASS impressum 320 has no horizontal clipping
+PASS impressum 844 has no horizontal clipping
+PASS datenschutz 320 has no horizontal clipping
+PASS datenschutz 844 has no horizontal clipping
+PASS default WebGL/fallback path initializes later scenes without uncaught errors
+PASS ribbon image loads with WebGL enabled
+46 0

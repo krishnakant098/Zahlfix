@@ -1,0 +1,58 @@
+/* ZahlFix R6.1 — shared login/home entry orbit geometry.
+   The exact same markup + CSS is used on both documents so the cross-document
+   handoff can reproduce the last login frame before Scene 01 takes ownership. */
+.entry-orbit-system{
+  --entry-x:50%;
+  --entry-y:52%;
+  --entry-w:min(720px,72vw);
+  --entry-plane-y:1;
+  --entry-core-size:104px;
+  --entry-ease:cubic-bezier(.22,.8,.24,1);
+  position:absolute;
+  left:var(--entry-x);
+  top:var(--entry-y);
+  width:var(--entry-w);
+  aspect-ratio:720/520;
+  transform:translate(-50%,-50%);
+  transform-origin:center;
+  pointer-events:none;
+  isolation:isolate;
+  will-change:left,top,width,opacity;
+}
+.entry-orbit-system__svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;display:block}
+.entry-orbit-system__plane{transform-box:view-box;transform-origin:360px 260px;transform:scaleY(var(--entry-plane-y));transition:transform .76s var(--entry-ease)}
+.entry-orbit-system__orbit{transform-box:view-box;transform-origin:360px 260px;transition:transform .78s var(--entry-ease),opacity .38s ease;opacity:.86}
+.entry-orbit-system__orbit ellipse{fill:none;vector-effect:non-scaling-stroke;stroke:url(#entryOrbitMetal);stroke-width:1.1;opacity:.82}
+.entry-orbit-system__orbit .entry-orbit-glint{stroke:url(#entryOrbitGlint);stroke-width:.46;opacity:.66}
+.entry-orbit-system__node{vector-effect:non-scaling-stroke;fill:url(#entryNodeMetal);stroke:#c9a75b;stroke-width:.45;filter:url(#entryNodeGlow);opacity:.86}
+.entry-orbit-system__calibration{fill:none;stroke:#8f7338;stroke-width:.52;vector-effect:non-scaling-stroke;opacity:.24}
+.entry-orbit-system__atmosphere{fill:url(#entryAtmosphere);opacity:.52}
+.entry-orbit-system__core{
+  position:absolute;left:50%;top:50%;width:var(--entry-core-size);height:var(--entry-core-size);
+  transform:translate(-50%,-50%) scale(.98);display:grid;place-items:center;z-index:4;
+  transition:width .76s var(--entry-ease),height .76s var(--entry-ease),opacity .34s ease,transform .62s var(--entry-ease);
+}
+.entry-orbit-system__core::before{content:"";position:absolute;inset:-25%;border:1px solid rgba(226,199,135,.11);border-radius:50%;background:radial-gradient(circle,rgba(195,148,56,.065),transparent 68%);box-shadow:0 0 46px rgba(195,148,56,.045)}
+.entry-orbit-system__core::after{content:"";position:absolute;inset:-72%;border-radius:50%;background:radial-gradient(circle,rgba(195,148,56,.115),transparent 61%);filter:blur(15px);opacity:.72}
+.entry-orbit-system__core img{position:relative;z-index:2;width:88%;height:88%;object-fit:contain;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5)) drop-shadow(0 0 14px rgba(195,148,56,.12))}
+.entry-orbit-system__orbit--1{transform:translateY(-24px) scaleY(.018)}
+.entry-orbit-system__orbit--2{transform:translateY(0) scaleY(.018)}
+.entry-orbit-system__orbit--3{transform:translateY(24px) scaleY(.018)}
+.entry-orbit-system.is-expanded .entry-orbit-system__orbit--1,
+.entry-orbit-system.is-expanded .entry-orbit-system__orbit--2,
+.entry-orbit-system.is-expanded .entry-orbit-system__orbit--3{transform:translateY(0) scaleY(1)}
+.entry-orbit-system:not(.is-expanded) .entry-orbit-system__core{opacity:0;transform:translate(-50%,-50%) scale(.36)}
+.entry-orbit-system:not(.is-expanded) .entry-orbit-system__node{opacity:.12}
+.entry-orbit-system:not(.is-expanded) .entry-orbit-system__calibration,.entry-orbit-system:not(.is-expanded) .entry-orbit-system__atmosphere{opacity:0}
+
+/* The login and homepage bridge deliberately share these viewport breakpoints. */
+@media(max-width:900px){.entry-orbit-system{--entry-w:min(620px,92vw);--entry-core-size:92px}}
+@media(max-width:560px){
+  .entry-orbit-system{--entry-w:min(520px,108vw);--entry-core-size:82px}
+  .entry-orbit-system__orbit--1{transform:translateY(-22px) scaleY(.016)}
+  .entry-orbit-system__orbit--3{transform:translateY(22px) scaleY(.016)}
+}
+@media(max-height:620px) and (min-width:721px){.entry-orbit-system{--entry-w:min(570px,58vw);--entry-core-size:80px}}
+@media(prefers-reduced-motion:reduce){
+  .entry-orbit-system,.entry-orbit-system__plane,.entry-orbit-system__orbit,.entry-orbit-system__core{transition-duration:.18s!important}
+}

@@ -1,0 +1,165 @@
+{
+  "version": "6.8.2-netlify.login2",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "4be0b397b935686971aa13c6522125f3a54c3013271835049eed46a53c0f3f40"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a56db637d043b21f0d8fca7d202785535cb539424197845d32fce6ff63cf5604"
+    },
+    {
+      "path": "BASELINE_SHA256.txt",
+      "sha256": "1eba625c57ab5b216a85fe1fbd88bbcc024e76df3857dee98009c9f4b8fbe7f2"
+    },
+    {
+      "path": "DEEP_GOLD_THEME_UPDATE.md",
+      "sha256": "a519b057d9af7de6a673527c67569321e2723e803df03a9b8eee28895977fb85"
+    },
+    {
+      "path": "GENERATE-SETUP-KEY.ps1",
+      "sha256": "89b0f0197b3f587ede7b86c48006dd5fceb8c25c07c43998d7d231d928e9c2cd"
+    },
+    {
+      "path": "GERMAN_LANGUAGE_QA.md",
+      "sha256": "28daa2cb311d8e87ddab5f4676c3f6b17dce8bd06e6edfb8b6f9beca131fba4b"
+    },
+    {
+      "path": "LOGIN_REDESIGN_R1.md",
+      "sha256": "9580ef68df7c61494ff556b88582127675f385a047b2b2ca69e519d3f188d77e"
+    },
+    {
+      "path": "LOGIN_REDESIGN_R2.md",
+      "sha256": "758c67f14e23a676f071beda7cb8ddebdd7d23e14fc693d65a8e59afb35a7983"
+    },
+    {
+      "path": "NETLIFY_DEPLOYMENT_GUIDE.md",
+      "sha256": "416a0d3c9d3433d4232b901c1345877409229d4aaa92631d3f5ddd4f47d55276"
+    },
+    {
+      "path": "README.md",
+      "sha256": "3115bfba315e9c4a781f7da001a052c669b1442b234359aee2896f066143bbfa"
+    },
+    {
+      "path": "UNITED_DOMAINS_DNS_TEMPLATE.txt",
+      "sha256": "74e0eb8df4b4637f0b233ab2c47f7dc8ad0c8e3fb7946069ed2a78c84868548a"
+    },
+    {
+      "path": "netlify/edge-functions/auth-gate.mjs",
+      "sha256": "ffa62d3db481c0254f9e2b54d00eea1f1946532f6b8188e82730f4202d83c5d6"
+    },
+    {
+      "path": "netlify/functions/_auth.mjs",
+      "sha256": "982cae86ee86d48fc78b273fa01d1d74256c5016804b0fb3d775d80fa2da800f"
+    },
+    {
+      "path": "netlify/functions/login.mjs",
+      "sha256": "846e8da1bdfc1e78dc3011af35b74bff7f7a48ca972cd1e7d95fcb4bcf1adc57"
+    },
+    {
+      "path": "netlify/functions/logout.mjs",
+      "sha256": "ce302d82d596c6b5b4b2dae858beb9d6032d484d05811abafc3cf37c786a646e"
+    },
+    {
+      "path": "netlify/functions/setup.mjs",
+      "sha256": "3d635249fc20b026849b66bf214e7667417078d7038435d6c56c915c451da26c"
+    },
+    {
+      "path": "netlify.toml",
+      "sha256": "397e4343ac963af5187b37910b88a8e5ce35e128177944b97cd2817355edcccb"
+    },
+    {
+      "path": "package.json",
+      "sha256": "67c179329ad62eb737d0e5fbb1be784718ecbab94de96eda8bc34dd54f76dc61"
+    },
+    {
+      "path": "public/agb.html",
+      "sha256": "dd0b05f2207fea6f51df75b98e5452bac202eb242179aa546d206e2cd6c92a9d"
+    },
+    {
+      "path": "public/assets/favicon.svg",
+      "sha256": "0ee201a957970312a391b00555975c6198750d71b1a659b1452623fea8461f6d"
+    },
+    {
+      "path": "public/assets/legal.css",
+      "sha256": "0a3947c85cbed5f86d04411588e647301a9de1589204a0edd645e6f03e46eeed"
+    },
+    {
+      "path": "public/assets/login.css",
+      "sha256": "113a130ae6631a6ba01fb6cde8d944441de80b235fe5713be8d7a7e18f7e4a34"
+    },
+    {
+      "path": "public/assets/site.css",
+      "sha256": "0663521473ca9180b3a9d2b52f11017a88763a083156520b59ddc9f6943654ac"
+    },
+    {
+      "path": "public/assets/site.js",
+      "sha256": "a319188bcf35e6a497f3bcd740e561a538741df55ae8ebe90ec15c1ccd39d49e"
+    },
+    {
+      "path": "public/assets/v6/icons/chart-line.svg",
+      "sha256": "7832d2e107c3b30784e55257485e46674ade58933bbf6bba2b2ad3e8aa6e941f"
+    },
+    {
+      "path": "public/assets/v6/icons/file-invoice.svg",
+      "sha256": "04a7e4b4b2003c2c7958438fe0f516feb870461de9cbd3ec952eb08d30228c21"
+    },
+    {
+      "path": "public/assets/v6/icons/shield-check.svg",
+      "sha256": "059799a51b2590bebee337c13afa0fcfb144ca24620c3abe7a2119530edbb20f"
+    },
+    {
+      "path": "public/assets/v6/icons/users-group.svg",
+      "sha256": "fa7c8cd0e826a04e661cd21084035ec402585c75326fe6a88a991143a4fcc644"
+    },
+    {
+      "path": "public/assets/v6/main.js",
+      "sha256": "94db1a1797ab2f1c6fee612a6919ff070abb4557e229d501f0580226101eb61b"
+    },
+    {
+      "path": "public/assets/v6/style.css",
+      "sha256": "5719220d0a80d7c5a6aa1e38670196e38d385886bfd30cc607df2966cc476fc9"
+    },
+    {
+      "path": "public/assets/v6/webgl-world.js",
+      "sha256": "cbac2c0706ef8502919bc755ef1b0ba8d4d66034e2501ab4567159fd7d37f75c"
+    },
+    {
+      "path": "public/assets/zahlfix-z-logo-128.png",
+      "sha256": "b59d504600a0d0583e728f0c390172c10a1e12695a7fa44efc524a28026be4cf"
+    },
+    {
+      "path": "public/assets/zahlfix-z-logo.png",
+      "sha256": "d8701919d12befa3afbbea004f1ae367014f2cfc29fa5501574104f53eccf82d"
+    },
+    {
+      "path": "public/datenschutz.html",
+      "sha256": "0ccb2c97287e191c9b2bc2408d0971c53c2c6437670b4af3447ec6686cf0f72d"
+    },
+    {
+      "path": "public/impressum.html",
+      "sha256": "6460c30946532b4dca2d13aa30a22a6215893f494e97a61b139466a815abc6f9"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "a37c5ea0b80a95b7299dc94b9013b3870c0e61c9a8712d88de665e71e0aadc33"
+    },
+    {
+      "path": "public/login-preview.html",
+      "sha256": "d4160613f2df800e7fb705015b7df926f82c97f2b7d45dd7a4b9a8d105727550"
+    },
+    {
+      "path": "tools/german-language-check.mjs",
+      "sha256": "cbd7b01fbd2db6e5d6033fb041793c4988bf7f19a75e9e101b07ea353e11d53e"
+    },
+    {
+      "path": "tools/login-visual-check.mjs",
+      "sha256": "47719e47c0f1a5f1a50789b05f175f0fd8af86ece6bac795c826bc1096967875"
+    },
+    {
+      "path": "tools/predeploy-check.mjs",
+      "sha256": "a3e65e5893550745cf244c4a6f23e7ad5725b63654cbd1e2d62077c8d0bf7538"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Original 6.8.2 file hashes: docs/BASELINE_SOURCE_MANIFEST.json
+Current 6.11.0-r2.0 archive hashes: SHA256SUMS.txt
+R2 delta against 6.10.0-phase1.0: docs/R2/CHANGE_INVENTORY.json
+Historical repair metadata is not a checksum of this changed source.

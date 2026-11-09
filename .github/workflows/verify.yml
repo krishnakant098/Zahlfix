@@ -1,0 +1,51 @@
+name: Verify ZahlFix source
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Require reviewed dependency lock
+        run: |
+          test -f package-lock.json || { echo 'Generate and review package-lock.json using npm run lock before release.'; exit 1; }
+      - run: npm ci --ignore-scripts
+      - run: npm run check
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements-dev.txt
+      - run: python -m playwright install --with-deps chromium
+      - name: Run real-HTTP browser tests
+        run: |
+          npm run dev > /tmp/zahlfix-preview.log 2>&1 &
+          ready=0
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:4173/ > /dev/null 2>&1; then ready=1; break; fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then cat /tmp/zahlfix-preview.log; exit 1; fi
+          python tests/browser/r4-regression.py --base-url http://127.0.0.1:4173 --profiles small,medium,phone,large-phone,tablet,large-tablet,landscape,zoom,desktop --screenshots
+          npm run test:mobile:geometry
+          python tests/browser/r4-lifecycle.py
+          python tests/browser/r4-assets.py
+          node tests/local-server.mjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: browser-evidence
+          path: qa/

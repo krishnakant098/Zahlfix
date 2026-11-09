@@ -1,0 +1,47 @@
+{
+  "source": "User-supplied zahlfix-z-primary-transparent.png",
+  "sourceSize": [
+    1517,
+    1517
+  ],
+  "crop": [
+    210,
+    155,
+    1361,
+    1306
+  ],
+  "canonicalViewBox": [
+    0,
+    0,
+    120,
+    120
+  ],
+  "pivot": [
+    60,
+    60
+  ],
+  "safeRadius": 10.114682922363281,
+  "treatment": "Original supplied artwork; isolated alpha-speck removal, shared crop, high-quality resizing and small-size optical sharpening. No generative redraw or invented 3D relighting.",
+  "exports": [
+    {
+      "file": "zahlfix-ribbon-96.webp",
+      "width": 96,
+      "bytes": 6304
+    },
+    {
+      "file": "zahlfix-ribbon-192.webp",
+      "width": 192,
+      "bytes": 14594
+    },
+    {
+      "file": "zahlfix-ribbon-384.webp",
+      "width": 384,
+      "bytes": 33954
+    },
+    {
+      "file": "zahlfix-ribbon-768.webp",
+      "width": 768,
+      "bytes": 88444
+    }
+  ]
+}

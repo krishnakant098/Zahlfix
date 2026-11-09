@@ -1,0 +1,122 @@
+{
+  "source_collection": {
+    "collection": "Tabler Icons via Iconify distribution",
+    "declared_version": "3.46.0",
+    "lastModified": 1785257700,
+    "retrieved": "2026-09-08",
+    "source_url": "https://raw.githubusercontent.com/iconify/icon-sets/master/json/tabler.json",
+    "method": "Exact SVG bodies captured from web-readable JSON and wrapped locally; not a byte-identical raw GitHub SVG download.",
+    "commit": "not pinned; content hashes pin this captured subset",
+    "icons": {
+      "file-description": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2m-8-4h6m-6-4h6\"/></g>"
+      },
+      "file-analytics": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2m-8-4v-5m3 5v-1m3 1v-3\"/></g>"
+      },
+      "file-code": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2\"/><path d=\"m10 13l-1 2l1 2m4-4l1 2l-1 2\"/></g>"
+      },
+      "file-spreadsheet": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2\"/><path d=\"M8 11h8v7H8zm0 4h8m-5-4v7\"/></g>"
+      },
+      "file-check": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M14 3v4a1 1 0 0 0 1 1h4\"/><path d=\"M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2\"/><path d=\"m9 15l2 2l4-4\"/></g>"
+      },
+      "schema": {
+        "body": "<path fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M5 2h5v4H5zm10 8h5v4h-5zM5 18h5v4H5zm0-8h5v4H5zm5 2h5M7.5 6v4m0 4v4\"/>"
+      },
+      "atom": {
+        "body": "<g fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\"><path d=\"M12 12v.01m7.071-7.081c-1.562-1.562-6 .337-9.9 4.243c-3.905 3.905-5.804 8.337-4.242 9.9c1.562 1.561 6-.338 9.9-4.244c3.905-3.905 5.804-8.337 4.242-9.9\"/><path d=\"M4.929 4.929c-1.562 1.562.337 6 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242c1.561-1.562-.338-6-4.244-9.9c-3.905-3.905-8.337-5.804-9.9-4.242\"/></g>"
+      }
+    }
+  },
+  "derived_documents": [
+    {
+      "asset": "document-report.svg",
+      "source": "file-description",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    },
+    {
+      "asset": "document-analytics.svg",
+      "source": "file-analytics",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    },
+    {
+      "asset": "document-code.svg",
+      "source": "file-code",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    },
+    {
+      "asset": "document-data.svg",
+      "source": "file-spreadsheet",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    },
+    {
+      "asset": "document-approval.svg",
+      "source": "file-check",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    },
+    {
+      "asset": "document-workflow.svg",
+      "source": "schema",
+      "modifications": [
+        "Removed original file shell/fold",
+        "Extracted interior motif",
+        "Converted relative commands to equivalent absolute subpath starts where needed",
+        "Recomposed into 64x88 flat record",
+        "Harmonised stroke, padding and palette",
+        "Added compact-detail version"
+      ],
+      "license": "MIT + ZahlFix-authored composition"
+    }
+  ],
+  "custom_geometry": [
+    "three-track orbit layout",
+    "curvature-unroll keyframes",
+    "three-ellipse atom",
+    "capture aperture"
+  ],
+  "brand": "Z motion silhouette derived from user-supplied PNG, exact source hash in geometry/z-master.json; header logo not changed.",
+  "license_file": "upstream/tabler/LICENSE.txt"
+}

@@ -1,0 +1,124 @@
+{
+  "mode": "R6.1 in-memory cross-document geometry continuity",
+  "passed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "test": "production login fixture generated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "test": "login and home share exactly three orbit elements",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "PIN input exposes no text caret/I-beam",
+      "passed": true,
+      "detail": {
+        "caret": "rgba(0, 0, 0, 0)",
+        "cursor": "default"
+      }
+    },
+    {
+      "test": "same orbit system expands after server acceptance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "login bridge snapshot is measured from rendered pixels",
+      "passed": true,
+      "detail": {
+        "bridge": {
+          "cx": 720,
+          "cy": 481.09,
+          "width": 720,
+          "core": 100.08
+        },
+        "rect": {
+          "x": 360,
+          "y": 221.0906219482422,
+          "width": 720,
+          "height": 520.0000152587891
+        }
+      }
+    },
+    {
+      "test": "authenticated entry class exists before cinematic module owns the page",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "homepage first-frame geometry comes from login pixel snapshot",
+      "passed": true,
+      "detail": {
+        "vars": {
+          "x": "720px",
+          "y": "481.09px",
+          "w": "720px"
+        },
+        "bridge": {
+          "cx": 720,
+          "cy": 481.09,
+          "width": 720,
+          "core": 100.08
+        }
+      }
+    },
+    {
+      "test": "old progress loader is suppressed for authenticated entry",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "story typography cannot flash during bridge travel",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "shared bridge arrives at measured Scene 01 center",
+      "passed": true,
+      "detail": {
+        "expected": {
+          "x": 1089.1,
+          "y": 483,
+          "w": 577.8
+        },
+        "actual": {
+          "x": 1089.0625,
+          "y": 482.984375,
+          "w": 577.796875
+        },
+        "projection": 0.72
+      }
+    },
+    {
+      "test": "shared bridge outer diameter matches Scene 01 orbit scale",
+      "passed": true,
+      "detail": {
+        "expected": {
+          "x": 1089.1,
+          "y": 483,
+          "w": 577.8
+        },
+        "actual": {
+          "x": 1089.0625,
+          "y": 482.984375,
+          "w": 577.796875
+        },
+        "projection": 0.72
+      }
+    },
+    {
+      "test": "temporary entry ownership is fully released after handoff",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "test": "Scene 01 phase-one renderer is visible after bridge release",
+      "passed": true,
+      "detail": null
+    }
+  ]
+}

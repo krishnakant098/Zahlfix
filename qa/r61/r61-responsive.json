@@ -1,0 +1,138 @@
+{
+  "passed": 9,
+  "failed": 0,
+  "results": [
+    {
+      "test": "phone: login bridge stays horizontally bounded by clipped stage",
+      "passed": true,
+      "detail": {
+        "cx": 160.3,
+        "cy": 313.14,
+        "width": 452.39,
+        "core": 79.98
+      }
+    },
+    {
+      "test": "phone: bridge lands on responsive Scene 01 center",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 195,
+          "y": 511.203125,
+          "w": 385.6363636363636
+        },
+        "a": {
+          "x": 194.984375,
+          "y": 511.1875,
+          "w": 385.625
+        },
+        "mobile": true
+      }
+    },
+    {
+      "test": "phone: bridge scale matches responsive Scene 01",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 195,
+          "y": 511.203125,
+          "w": 385.6363636363636
+        },
+        "a": {
+          "x": 194.984375,
+          "y": 511.1875,
+          "w": 385.625
+        },
+        "mobile": true
+      }
+    },
+    {
+      "test": "tablet: login bridge stays horizontally bounded by clipped stage",
+      "passed": true,
+      "detail": {
+        "cx": 435.52,
+        "cy": 359.3,
+        "width": 620,
+        "core": 89.06
+      }
+    },
+    {
+      "test": "tablet: bridge lands on responsive Scene 01 center",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 384,
+          "y": 659.671875,
+          "w": 669.024
+        },
+        "a": {
+          "x": 384,
+          "y": 659.65625,
+          "w": 669.015625
+        },
+        "mobile": true
+      }
+    },
+    {
+      "test": "tablet: bridge scale matches responsive Scene 01",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 384,
+          "y": 659.671875,
+          "w": 669.024
+        },
+        "a": {
+          "x": 384,
+          "y": 659.65625,
+          "w": 669.015625
+        },
+        "mobile": true
+      }
+    },
+    {
+      "test": "landscape: login bridge stays horizontally bounded by clipped stage",
+      "passed": true,
+      "detail": {
+        "cx": 474.66,
+        "cy": 28.52,
+        "width": 557.03,
+        "core": 77.79
+      }
+    },
+    {
+      "test": "landscape: bridge lands on responsive Scene 01 center",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 637.88,
+          "y": 207,
+          "w": 280.96941176470585
+        },
+        "a": {
+          "x": 637.875,
+          "y": 206.984375,
+          "w": 280.96875
+        },
+        "mobile": false
+      }
+    },
+    {
+      "test": "landscape: bridge scale matches responsive Scene 01",
+      "passed": true,
+      "detail": {
+        "e": {
+          "x": 637.88,
+          "y": 207,
+          "w": 280.96941176470585
+        },
+        "a": {
+          "x": 637.875,
+          "y": 206.984375,
+          "w": 280.96875
+        },
+        "mobile": false
+      }
+    }
+  ]
+}

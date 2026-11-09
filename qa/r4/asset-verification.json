@@ -1,0 +1,512 @@
+{
+  "scope": "strict XML, internal references and isolated Chromium image-document decode",
+  "passed": 126,
+  "failed": 0,
+  "assets": 21,
+  "results": [
+    {
+      "test": "document-report: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-report: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-report: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-report: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-report: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-code: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-code: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-code: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-code: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-code: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-data: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-data: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-data: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-data: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-data: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-approval: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-approval: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-approval: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-approval: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-approval: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: viewbox",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: viewbox",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: viewbox",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: viewbox",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: viewbox",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: viewbox",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: viewbox",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: viewbox",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: unique_ids",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: internal_references_resolve",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: no_script_or_foreignobject",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: no_expensive_filters",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: viewbox",
+      "passed": true
+    },
+    {
+      "test": "document-report: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-report-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-analytics: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-analytics-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-code: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-code-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-data: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-data-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-workflow: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-workflow-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-approval: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "document-approval-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-gold: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-ink: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "z-observatory-compact: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "z-transition-mask: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "capture-aperture: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "orbital-observatory: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "engraved-system: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "process-instrument: Chromium image decode",
+      "passed": true
+    },
+    {
+      "test": "atom-observatory: Chromium image decode",
+      "passed": true
+    }
+  ]
+}

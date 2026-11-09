@@ -1,0 +1,74 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "passed": true,
+    "bytes": 151227
+  },
+  {
+    "route": "/en/",
+    "status": 200,
+    "passed": true,
+    "bytes": 150845
+  },
+  {
+    "route": "/de/",
+    "status": 200,
+    "passed": true,
+    "bytes": 151509
+  },
+  {
+    "route": "/en/impressum.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 2669
+  },
+  {
+    "route": "/en/datenschutz.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 4284
+  },
+  {
+    "route": "/en/agb.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 3094
+  },
+  {
+    "route": "/de/impressum.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 2467
+  },
+  {
+    "route": "/de/datenschutz.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 4515
+  },
+  {
+    "route": "/de/agb.html",
+    "status": 200,
+    "passed": true,
+    "bytes": 3074
+  },
+  {
+    "route": "/assets/v6/i18n-content.js",
+    "status": 200,
+    "passed": true,
+    "bytes": 37008
+  },
+  {
+    "route": "/assets/v6/locale-ui.js",
+    "status": 200,
+    "passed": true,
+    "bytes": 4058
+  },
+  {
+    "route": "/assets/legal.css",
+    "status": 200,
+    "passed": true,
+    "bytes": 3300
+  }
+]
